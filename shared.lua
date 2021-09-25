@@ -387,87 +387,87 @@ QBShared.Items = {
 
 QBShared.Weapons = {
 	-- // WEAPONS
-	[`weapon_unarmed`] 				 = {['name'] = 'weapon_unarmed', 		 	  	['label'] = 'Fists', 					['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = nil, 					['image'] = 'placeholder.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'Fisticuffs'},
-	[`weapon_knife`] 				 = {['name'] = 'weapon_knife', 			 	  	['label'] = 'Knife', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_knife.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'An instrument composed of a blade fixed into a handle, used for cutting or as a weapon'},
-	[`weapon_nightstick`] 			 = {['name'] = 'weapon_nightstick', 		 	['label'] = 'Nightstick', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_nightstick.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A police officer\'s club or billy'},
-	[`weapon_flashlight`] 			 = {['name'] = 'weapon_flashlight', 		 	['label'] = 'Flashlight', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_flashlight.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A small size sun that will make things brighter.'},
-	[`weapon_hammer`] 				 = {['name'] = 'weapon_hammer', 			 	['label'] = 'Hammer', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_hammer.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'Used for jobs such as breaking things (legs) and driving in nails'},
-	[`weapon_bat`] 					 = {['name'] = 'weapon_bat', 			 	  	['label'] = 'Bat', 					    ['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_bat.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'Used for hitting a ball in sports (or other things)'},
-	[`weapon_golfclub`] 			 = {['name'] = 'weapon_golfclub', 		 	  	['label'] = 'Golfclub', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_golfclub.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A club used to hit the ball in golf'},
-	[`weapon_crowbar`] 				 = {['name'] = 'weapon_crowbar', 		 	  	['label'] = 'Crowbar', 				    ['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_crowbar.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'An iron bar with a flattened end, used as a lever'},
-	[`weapon_pistol`] 				 = {['name'] = 'weapon_pistol', 			 	['label'] = 'Walther P99', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_pistol.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small firearm designed to be held in one hand'},
-	[`weapon_pistol_mk2`] 			 = {['name'] = 'weapon_pistol_mk2', 			['label'] = 'Pistol Mk II', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_pistolmk2.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'An upgraded small firearm designed to be held in one hand'},
-	[`weapon_combatpistol`] 		 = {['name'] = 'weapon_combatpistol', 	 	  	['label'] = 'Combat Pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_combatpistol.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A combat version small firearm designed to be held in one hand'},
-	[`weapon_appistol`] 			 = {['name'] = 'weapon_appistol', 		 	  	['label'] = 'AP Pistol', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_appistol.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small firearm designed to be held in one hand that is automatic'},
-	[`weapon_pistol50`] 			 = {['name'] = 'weapon_pistol50', 		 	  	['label'] = 'Pistol .50 Cal', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_pistol50.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A .50 caliber firearm designed to be held with both hands'},
-	[`weapon_microsmg`] 			 = {['name'] = 'weapon_microsmg', 		 	  	['label'] = 'Micro SMG', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_microsmg.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A handheld lightweight machine gun'},
-	[`weapon_smg`] 				 	 = {['name'] = 'weapon_smg', 			 	  	['label'] = 'SMG', 						['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_smg.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'A handheld lightweight machine gun'},
-	[`weapon_assaultsmg`] 			 = {['name'] = 'weapon_assaultsmg', 		 	['label'] = 'Assault SMG', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_assaultsmg.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'An assault version of a handheld lightweight machine gun'},
-	[`weapon_assaultrifle`] 		 = {['name'] = 'weapon_assaultrifle', 	 	  	['label'] = 'Assault Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_assaultrifle.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A rapid-fire, magazine-fed automatic rifle designed for infantry use'},
-	[`weapon_carbinerifle`] 		 = {['name'] = 'weapon_carbinerifle', 	 	  	['label'] = 'Carbine Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_carbinerifle.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A lightweight automatic rifle'},
-	[`weapon_advancedrifle`] 		 = {['name'] = 'weapon_advancedrifle', 	 	  	['label'] = 'Advanced Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_advancedrifle.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'An assault version of a rapid-fire, magazine-fed automatic rifle designed for infantry use'},
-	[`weapon_mg`] 					 = {['name'] = 'weapon_mg', 				 	['label'] = 'Machinegun', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_MG',				['image'] = 'weapon_mg.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'An automatic gun that fires bullets in rapid succession for as long as the trigger is pressed'},
-	[`weapon_combatmg`] 			 = {['name'] = 'weapon_combatmg', 		 	  	['label'] = 'Combat MG', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_MG',				['image'] = 'weapon_combatmg.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A combat version of an automatic gun that fires bullets in rapid succession for as long as the trigger is pressed'},
-	[`weapon_pumpshotgun`] 			 = {['name'] = 'weapon_pumpshotgun', 	 	  	['label'] = 'Pump Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_pumpshotgun.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A pump-action smoothbore gun for firing small shot at short range'},
-	[`weapon_sawnoffshotgun`] 		 = {['name'] = 'weapon_sawnoffshotgun', 	 	['label'] = 'Sawn-off Shotgun', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_sawnoffshotgun.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A sawn-off smoothbore gun for firing small shot at short range'},
-	[`weapon_assaultshotgun`] 		 = {['name'] = 'weapon_assaultshotgun', 	 	['label'] = 'Assault Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_assaultshotgun.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'An assault version of asmoothbore gun for firing small shot at short range'},
-	[`weapon_bullpupshotgun`] 		 = {['name'] = 'weapon_bullpupshotgun', 	 	['label'] = 'Bullpup Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_bullpupshotgun.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A compact smoothbore gun for firing small shot at short range'},
-	[`weapon_stungun`] 				 = {['name'] = 'weapon_stungun', 		 	  	['label'] = 'Taser', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_taser.png', 		 ['unique'] = true, 	['useable'] = false, 	['description'] = 'A weapon firing barbs attached by wires to batteries, causing temporary paralysis'},
-	[`weapon_sniperrifle`] 			 = {['name'] = 'weapon_sniperrifle', 	 	  	['label'] = 'Sniper Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'weapon_sniperrifle.png', 	 ['unique'] = true, 	['useable'] = false, 	['description'] = 'A high-precision, long-range rifle'},
-	[`weapon_heavysniper`] 			 = {['name'] = 'weapon_heavysniper', 	 	  	['label'] = 'Heavy Sniper', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'weapon_heavysniper.png', 	 ['unique'] = true, 	['useable'] = false, 	['description'] = 'An upgraded high-precision, long-range rifle'},
-	[`weapon_remotesniper`] 		 = {['name'] = 'weapon_remotesniper', 	 	  	['label'] = 'Remote Sniper', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER_REMOTE',	['image'] = 'weapon_remotesniper.png', 	 ['unique'] = true, 	['useable'] = false, 	['description'] = 'A portable high-precision, long-range rifle'},
-	[`weapon_grenadelauncher`] 		 = {['name'] = 'weapon_grenadelauncher', 	  	['label'] = 'Grenade Launcher', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_GRENADELAUNCHER',	['image'] = 'weapon_grenadelauncher.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A weapon that fires a specially-designed large-caliber projectile, often with an explosive, smoke or gas warhead'},
-	[`weapon_grenadelauncher_smoke`] = {['name'] = 'weapon_grenadelauncher_smoke', 	['label'] = 'Smoke Grenade Launcher', 	['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_GRENADELAUNCHER',	['image'] = 'weapon_smokegrenade.png', 	 ['unique'] = true, 	['useable'] = false, 	['description'] = 'A bomb that produces a lot of smoke when it explodes'},
-	[`weapon_rpg`] 					 = {['name'] = 'weapon_rpg', 			      	['label'] = 'RPG', 						['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RPG',				['image'] = 'weapon_rpg.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'A rocket-propelled grenade launcher'},
-	[`weapon_minigun`] 				 = {['name'] = 'weapon_minigun', 		      	['label'] = 'Minigun', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_MINIGUN',			['image'] = 'weapon_minigun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A portable machine gun consisting of a rotating cluster of six barrels and capable of variable rates of fire of up to 6,000 rounds per minute'},
-	[`weapon_grenade`] 				 = {['name'] = 'weapon_grenade', 		      	['label'] = 'Grenade', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_grenade.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A handheld throwable bomb'},
-	[`weapon_stickybomb`] 			 = {['name'] = 'weapon_stickybomb', 		    ['label'] = 'C4', 						['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_stickybomb.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'An explosive charge covered with an adhesive that when thrown against an object sticks until it explodes'},
-	[`weapon_smokegrenade`] 		 = {['name'] = 'weapon_smokegrenade', 	      	['label'] = 'Smoke Grenade', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_c4.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'An explosive charge that can be remotely detonated'},
-	[`weapon_bzgas`] 				 = {['name'] = 'weapon_bzgas', 			      	['label'] = 'BZ Gas', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_bzgas.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A cannister of gas that causes extreme pain'},
-	[`weapon_molotov`] 				 = {['name'] = 'weapon_molotov', 		      	['label'] = 'Molotov', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_molotov.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A crude bomb made of a bottle filled with a flammable liquid and fitted with a wick for lighting'},
-	[`weapon_fireextinguisher`] 	 = {['name'] = 'weapon_fireextinguisher',      	['label'] = 'Fire Extinguisher', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_fireextinguisher.png', 	['unique'] = true, 	['useable'] = false, 	['description'] = 'A portable device that discharges a jet of water, foam, gas, or other material to extinguish a fire'},
-	[`weapon_petrolcan`] 			 = {['name'] = 'weapon_petrolcan', 		 	  	['label'] = 'Petrol Can', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PETROLCAN',		['image'] = 'weapon_petrolcan.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A robust liquid container made from pressed steel'},
-	[`weapon_briefcase`] 			 = {['name'] = 'weapon_briefcase', 		 	  	['label'] = 'Briefcase', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_briefcase.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A briefcase'},
-	[`weapon_briefcase_02`] 		 = {['name'] = 'weapon_briefcase_02', 	 	  	['label'] = 'Briefcase', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_briefcase2.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A briefcase'},
-	[`weapon_ball`] 				 = {['name'] = 'weapon_ball', 			 	  	['label'] = 'Ball', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_BALL',				['image'] = 'weapon_ball.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'A solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game'},
-	[`weapon_flare`] 				 = {['name'] = 'weapon_flare', 			 	  	['label'] = 'Flare pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_FLARE',			['image'] = 'weapon_flare.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small pyrotechnic devices used for illumination and signalling'},
-	[`weapon_snspistol`] 			 = {['name'] = 'weapon_snspistol', 		 	  	['label'] = 'SNS Pistol', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_snspistol.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A very small firearm designed to be easily concealed'},
-	[`weapon_bottle`] 				 = {['name'] = 'weapon_bottle', 			 	['label'] = 'Broken Bottle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_bottle.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A broken bottle'},
-	[`weapon_gusenberg`] 			 = {['name'] = 'weapon_gusenberg', 		 	  	['label'] = 'Thompson SMG', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_MG',				['image'] = 'weapon_gusenberg.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'An automatic rifle commonly referred to as a tommy gun'},
-	[`weapon_specialcarbine`] 		 = {['name'] = 'weapon_specialcarbine', 	 	['label'] = 'Special Carbine', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_specialcarbine.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'An extremely versatile assault rifle for any combat situation'},
-	[`weapon_heavypistol`] 			 = {['name'] = 'weapon_heavypistol', 	 	  	['label'] = 'Heavy Pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_heavypistol.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A hefty firearm designed to be held in one hand (or attempted)'},
-	[`weapon_bullpuprifle`] 		 = {['name'] = 'weapon_bullpuprifle', 	 	  	['label'] = 'Bullpup Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_bullpuprifle.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A compact automatic assault rifle'},
-	[`weapon_dagger`] 				 = {['name'] = 'weapon_dagger', 			 	['label'] = 'Dagger', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_dagger.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A short knife with a pointed and edged blade, used as a weapon'},
-	[`weapon_vintagepistol`] 		 = {['name'] = 'weapon_vintagepistol', 	 	  	['label'] = 'Vintage Pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_vintagepistol.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'An antique firearm designed to be held in one hand'},
-	[`weapon_firework`] 			 = {['name'] = 'weapon_firework', 		 	  	['label'] = 'Firework Launcher', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_firework.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A device containing gunpowder and other combustible chemicals that causes a spectacular explosion when ignited'},
-	[`weapon_musket`] 			     = {['name'] = 'weapon_musket', 			 	['label'] = 'Musket', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_musket.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'An infantryman\'s light gun with a long barrel, typically smooth-bored, muzzleloading, and fired from the shoulder'},
-	[`weapon_heavyshotgun`] 		 = {['name'] = 'weapon_heavyshotgun', 	 	  	['label'] = 'Heavy Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_heavyshotgun.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A large smoothbore gun for firing small shot at short range'},
-	[`weapon_marksmanrifle`] 		 = {['name'] = 'weapon_marksmanrifle', 	 	  	['label'] = 'Marksman Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'weapon_marksmanrifle.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'A very accurate single-fire rifle'},
-	[`weapon_hominglauncher`] 		 = {['name'] = 'weapon_hominglauncher', 	 	['label'] = 'Homing Launcher', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_STINGER',			['image'] = 'weapon_hominglauncher.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A weapon fitted with an electronic device that enables it to find and hit a target'},
-	[`weapon_proxmine`] 			 = {['name'] = 'weapon_proxmine', 		 	  	['label'] = 'Proxmine Grenade', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_proximitymine.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'A bomb placed on the ground that detonates when going within its proximity'},
-	[`weapon_snowball`] 		     = {['name'] = 'weapon_snowball', 		 	  	['label'] = 'Snowball', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_snowball.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A ball of packed snow, especially one made for throwing at other people for fun'},
-	[`weapon_flaregun`] 			 = {['name'] = 'weapon_flaregun', 		 	  	['label'] = 'Flare Gun', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_FLARE',			['image'] = 'weapon_flaregun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A handgun for firing signal rockets'},
-	[`weapon_garbagebag`] 			 = {['name'] = 'weapon_garbagebag', 		 	['label'] = 'Garbage Bag', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_garbagebag.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A garbage bag'},
-	[`weapon_handcuffs`] 			 = {['name'] = 'weapon_handcuffs', 		 	  	['label'] = 'Handcuffs', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_handcuffs.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A pair of lockable linked metal rings for securing a prisoner\'s wrists'},
-	[`weapon_combatpdw`] 			 = {['name'] = 'weapon_combatpdw', 		 	  	['label'] = 'Combat PDW', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_combatpdw.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A combat version of a handheld lightweight machine gun'},
-	[`weapon_marksmanpistol`] 		 = {['name'] = 'weapon_marksmanpistol', 	 	['label'] = 'Marksman Pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_marksmanpistol.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A very accurate small firearm designed to be held in one hand'},
-	[`weapon_knuckle`] 				 = {['name'] = 'weapon_knuckle', 		 	  	['label'] = 'Knuckle', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_knuckle.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A metal guard worn over the knuckles in fighting, especially to increase the effect of the blows'},
-	[`weapon_hatchet`] 				 = {['name'] = 'weapon_hatchet', 		 	  	['label'] = 'Hatchet', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_hatchet.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small axe with a short handle for use in one hand'},
-	[`weapon_railgun`] 				 = {['name'] = 'weapon_railgun', 		 	  	['label'] = 'Railgun', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_railgun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A weapon that uses electromagnetic force to launch high velocity projectiles'},
-	[`weapon_machete`] 				 = {['name'] = 'weapon_machete', 		 	  	['label'] = 'Machete', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_machete.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A broad, heavy knife used as a weapon'},
-	[`weapon_machinepistol`] 		 = {['name'] = 'weapon_machinepistol', 	 	  	['label'] = 'Tec-9', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_machinepistol.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'A self-loading pistol capable of burst or fully automatic fire'},
-	[`weapon_switchblade`] 			 = {['name'] = 'weapon_switchblade', 	 	  	['label'] = 'Switchblade', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_switchblade.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A knife with a blade that springs out from the handle when a button is pressed'},
-	[`weapon_revolver`] 			 = {['name'] = 'weapon_revolver', 		 	  	['label'] = 'Revolver', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_revolver.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A pistol with revolving chambers enabling several shots to be fired without reloading'},
-	[`weapon_dbshotgun`] 			 = {['name'] = 'weapon_dbshotgun', 		 	  	['label'] = 'Double-barrel Shotgun', 	['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_dbshotgun.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A shotgun with two parallel barrels, allowing two single shots to be fired in quick succession'},
-	[`weapon_compactrifle`] 		 = {['name'] = 'weapon_compactrifle', 	 	  	['label'] = 'Compact Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_compactrifle.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A compact version of an assault rifle'},
-	[`weapon_autoshotgun`] 			 = {['name'] = 'weapon_autoshotgun', 	 	  	['label'] = 'Auto Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_autoshotgun.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A shotgun capable of rapid continous fire'},
-	[`weapon_battleaxe`] 			 = {['name'] = 'weapon_battleaxe', 		 	  	['label'] = 'Battle Axe', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_battleaxe.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A large broad-bladed axe used in ancient warfare'},
-	[`weapon_compactlauncher`] 		 = {['name'] = 'weapon_compactlauncher',  	  	['label'] = 'Compact Launcher', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_compactlauncher.png', 	['unique'] = true, 	['useable'] = false, 	['description'] = 'A compact grenade launcher'},
-	[`weapon_minismg`] 				 = {['name'] = 'weapon_minismg', 		 	  	['label'] = 'Mini SMG', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_minismg.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A mini handheld lightweight machine gun'},
-	[`weapon_pipebomb`] 			 = {['name'] = 'weapon_pipebomb', 		 	  	['label'] = 'Pipe Bomb', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_pipebomb.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A homemade bomb, the components of which are contained in a pipe'},
-	[`weapon_poolcue`] 				 = {['name'] = 'weapon_poolcue', 		 	  	['label'] = 'Poolcue', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_poolcue.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A stick used to strike a ball, usually the cue ball (sometimes)'},
-	[`weapon_wrench`] 				 = {['name'] = 'weapon_wrench', 			 	['label'] = 'Wrench', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_wrench.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A tool used for gripping and turning nuts, bolts, pipes, etc'},
-	[`weapon_bread`] 				 = {['name'] = 'weapon_bread', 				 	['label'] = 'Baquette', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'baquette.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'Bread..?'},
+	['weapon_unarmed'] 				 = {['name'] = 'weapon_unarmed', 		 	  	['label'] = 'Fists', 					['weight'] = 1000, 		['type'] = 'weapon',	['ammotype'] = nil, 					['image'] = 'placeholder.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'Fisticuffs'},
+	['weapon_knife'] 				 = {['name'] = 'weapon_knife', 			 	  	['label'] = 'Knife', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_knife.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'An instrument composed of a blade fixed into a handle, used for cutting or as a weapon'},
+	['weapon_nightstick'] 			 = {['name'] = 'weapon_nightstick', 		 	['label'] = 'Nightstick', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_nightstick.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A police officer\'s club or billy'},
+	['weapon_flashlight'] 			 = {['name'] = 'weapon_flashlight', 		 	['label'] = 'Flashlight', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_flashlight.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A small size sun that will make things brighter.'},
+	['weapon_hammer'] 				 = {['name'] = 'weapon_hammer', 			 	['label'] = 'Hammer', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_hammer.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'Used for jobs such as breaking things (legs) and driving in nails'},
+	['weapon_bat'] 					 = {['name'] = 'weapon_bat', 			 	  	['label'] = 'Bat', 					    ['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_bat.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'Used for hitting a ball in sports (or other things)'},
+	['weapon_golfclub'] 			 = {['name'] = 'weapon_golfclub', 		 	  	['label'] = 'Golfclub', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_golfclub.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A club used to hit the ball in golf'},
+	['weapon_crowbar'] 				 = {['name'] = 'weapon_crowbar', 		 	  	['label'] = 'Crowbar', 				    ['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_crowbar.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'An iron bar with a flattened end, used as a lever'},
+	['weapon_pistol'] 				 = {['name'] = 'weapon_pistol', 			 	['label'] = 'Walther P99', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_pistol.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small firearm designed to be held in one hand'},
+	['weapon_pistol_mk2'] 			 = {['name'] = 'weapon_pistol_mk2', 			['label'] = 'Pistol Mk II', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_pistolmk2.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'An upgraded small firearm designed to be held in one hand'},
+	['weapon_combatpistol'] 		 = {['name'] = 'weapon_combatpistol', 	 	  	['label'] = 'Combat Pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_combatpistol.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A combat version small firearm designed to be held in one hand'},
+	['weapon_appistol'] 			 = {['name'] = 'weapon_appistol', 		 	  	['label'] = 'AP Pistol', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_appistol.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small firearm designed to be held in one hand that is automatic'},
+	['weapon_pistol50'] 			 = {['name'] = 'weapon_pistol50', 		 	  	['label'] = 'Pistol .50 Cal', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_pistol50.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A .50 caliber firearm designed to be held with both hands'},
+	['weapon_microsmg'] 			 = {['name'] = 'weapon_microsmg', 		 	  	['label'] = 'Micro SMG', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_microsmg.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A handheld lightweight machine gun'},
+	['weapon_smg'] 				 	 = {['name'] = 'weapon_smg', 			 	  	['label'] = 'SMG', 						['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_smg.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'A handheld lightweight machine gun'},
+	['weapon_assaultsmg'] 			 = {['name'] = 'weapon_assaultsmg', 		 	['label'] = 'Assault SMG', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_assaultsmg.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'An assault version of a handheld lightweight machine gun'},
+	['weapon_assaultrifle'] 		 = {['name'] = 'weapon_assaultrifle', 	 	  	['label'] = 'Assault Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_assaultrifle.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A rapid-fire, magazine-fed automatic rifle designed for infantry use'},
+	['weapon_carbinerifle'] 		 = {['name'] = 'weapon_carbinerifle', 	 	  	['label'] = 'Carbine Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_carbinerifle.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A lightweight automatic rifle'},
+	['weapon_advancedrifle'] 		 = {['name'] = 'weapon_advancedrifle', 	 	  	['label'] = 'Advanced Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_advancedrifle.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'An assault version of a rapid-fire, magazine-fed automatic rifle designed for infantry use'},
+	['weapon_mg'] 					 = {['name'] = 'weapon_mg', 				 	['label'] = 'Machinegun', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_MG',				['image'] = 'weapon_mg.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'An automatic gun that fires bullets in rapid succession for as long as the trigger is pressed'},
+	['weapon_combatmg'] 			 = {['name'] = 'weapon_combatmg', 		 	  	['label'] = 'Combat MG', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_MG',				['image'] = 'weapon_combatmg.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A combat version of an automatic gun that fires bullets in rapid succession for as long as the trigger is pressed'},
+	['weapon_pumpshotgun'] 			 = {['name'] = 'weapon_pumpshotgun', 	 	  	['label'] = 'Pump Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_pumpshotgun.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A pump-action smoothbore gun for firing small shot at short range'},
+	['weapon_sawnoffshotgun'] 		 = {['name'] = 'weapon_sawnoffshotgun', 	 	['label'] = 'Sawn-off Shotgun', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_sawnoffshotgun.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A sawn-off smoothbore gun for firing small shot at short range'},
+	['weapon_assaultshotgun'] 		 = {['name'] = 'weapon_assaultshotgun', 	 	['label'] = 'Assault Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_assaultshotgun.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'An assault version of asmoothbore gun for firing small shot at short range'},
+	['weapon_bullpupshotgun'] 		 = {['name'] = 'weapon_bullpupshotgun', 	 	['label'] = 'Bullpup Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_bullpupshotgun.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A compact smoothbore gun for firing small shot at short range'},
+	['weapon_stungun'] 				 = {['name'] = 'weapon_stungun', 		 	  	['label'] = 'Taser', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_taser.png', 		 ['unique'] = true, 	['useable'] = false, 	['description'] = 'A weapon firing barbs attached by wires to batteries, causing temporary paralysis'},
+	['weapon_sniperrifle'] 			 = {['name'] = 'weapon_sniperrifle', 	 	  	['label'] = 'Sniper Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'weapon_sniperrifle.png', 	 ['unique'] = true, 	['useable'] = false, 	['description'] = 'A high-precision, long-range rifle'},
+	['weapon_heavysniper'] 			 = {['name'] = 'weapon_heavysniper', 	 	  	['label'] = 'Heavy Sniper', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'weapon_heavysniper.png', 	 ['unique'] = true, 	['useable'] = false, 	['description'] = 'An upgraded high-precision, long-range rifle'},
+	['weapon_remotesniper'] 		 = {['name'] = 'weapon_remotesniper', 	 	  	['label'] = 'Remote Sniper', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER_REMOTE',	['image'] = 'weapon_remotesniper.png', 	 ['unique'] = true, 	['useable'] = false, 	['description'] = 'A portable high-precision, long-range rifle'},
+	['weapon_grenadelauncher'] 		 = {['name'] = 'weapon_grenadelauncher', 	  	['label'] = 'Grenade Launcher', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_GRENADELAUNCHER',	['image'] = 'weapon_grenadelauncher.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A weapon that fires a specially-designed large-caliber projectile, often with an explosive, smoke or gas warhead'},
+	['weapon_grenadelauncher_smoke'] = {['name'] = 'weapon_grenadelauncher_smoke', 	['label'] = 'Smoke Grenade Launcher', 	['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_GRENADELAUNCHER',	['image'] = 'weapon_smokegrenade.png', 	 ['unique'] = true, 	['useable'] = false, 	['description'] = 'A bomb that produces a lot of smoke when it explodes'},
+	['weapon_rpg'] 					 = {['name'] = 'weapon_rpg', 			      	['label'] = 'RPG', 						['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RPG',				['image'] = 'weapon_rpg.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'A rocket-propelled grenade launcher'},
+	['weapon_minigun'] 				 = {['name'] = 'weapon_minigun', 		      	['label'] = 'Minigun', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_MINIGUN',			['image'] = 'weapon_minigun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A portable machine gun consisting of a rotating cluster of six barrels and capable of variable rates of fire of up to 6,000 rounds per minute'},
+	['weapon_grenade'] 				 = {['name'] = 'weapon_grenade', 		      	['label'] = 'Grenade', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_grenade.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A handheld throwable bomb'},
+	['weapon_stickybomb'] 			 = {['name'] = 'weapon_stickybomb', 		    ['label'] = 'C4', 						['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_stickybomb.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'An explosive charge covered with an adhesive that when thrown against an object sticks until it explodes'},
+	['weapon_smokegrenade'] 		 = {['name'] = 'weapon_smokegrenade', 	      	['label'] = 'Smoke Grenade', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_c4.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'An explosive charge that can be remotely detonated'},
+	['weapon_bzgas'] 				 = {['name'] = 'weapon_bzgas', 			      	['label'] = 'BZ Gas', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_bzgas.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A cannister of gas that causes extreme pain'},
+	['weapon_molotov'] 				 = {['name'] = 'weapon_molotov', 		      	['label'] = 'Molotov', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_molotov.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A crude bomb made of a bottle filled with a flammable liquid and fitted with a wick for lighting'},
+	['weapon_fireextinguisher'] 	 = {['name'] = 'weapon_fireextinguisher',      	['label'] = 'Fire Extinguisher', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_fireextinguisher.png', 	['unique'] = true, 	['useable'] = false, 	['description'] = 'A portable device that discharges a jet of water, foam, gas, or other material to extinguish a fire'},
+	['weapon_petrolcan'] 			 = {['name'] = 'weapon_petrolcan', 		 	  	['label'] = 'Petrol Can', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PETROLCAN',		['image'] = 'weapon_petrolcan.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A robust liquid container made from pressed steel'},
+	['weapon_briefcase'] 			 = {['name'] = 'weapon_briefcase', 		 	  	['label'] = 'Briefcase', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_briefcase.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A briefcase'},
+	['weapon_briefcase_02'] 		 = {['name'] = 'weapon_briefcase_02', 	 	  	['label'] = 'Briefcase', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_briefcase2.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A briefcase'},
+	['weapon_ball'] 				 = {['name'] = 'weapon_ball', 			 	  	['label'] = 'Ball', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_BALL',				['image'] = 'weapon_ball.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'A solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game'},
+	['weapon_flare'] 				 = {['name'] = 'weapon_flare', 			 	  	['label'] = 'Flare pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_FLARE',			['image'] = 'weapon_flare.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small pyrotechnic devices used for illumination and signalling'},
+	['weapon_snspistol'] 			 = {['name'] = 'weapon_snspistol', 		 	  	['label'] = 'SNS Pistol', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_snspistol.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A very small firearm designed to be easily concealed'},
+	['weapon_bottle'] 				 = {['name'] = 'weapon_bottle', 			 	['label'] = 'Broken Bottle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_bottle.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A broken bottle'},
+	['weapon_gusenberg'] 			 = {['name'] = 'weapon_gusenberg', 		 	  	['label'] = 'Thompson SMG', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_MG',				['image'] = 'weapon_gusenberg.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'An automatic rifle commonly referred to as a tommy gun'},
+	['weapon_specialcarbine'] 		 = {['name'] = 'weapon_specialcarbine', 	 	['label'] = 'Special Carbine', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_specialcarbine.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'An extremely versatile assault rifle for any combat situation'},
+	['weapon_heavypistol'] 			 = {['name'] = 'weapon_heavypistol', 	 	  	['label'] = 'Heavy Pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_heavypistol.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A hefty firearm designed to be held in one hand (or attempted)'},
+	['weapon_bullpuprifle'] 		 = {['name'] = 'weapon_bullpuprifle', 	 	  	['label'] = 'Bullpup Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_bullpuprifle.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A compact automatic assault rifle'},
+	['weapon_dagger'] 				 = {['name'] = 'weapon_dagger', 			 	['label'] = 'Dagger', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_dagger.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A short knife with a pointed and edged blade, used as a weapon'},
+	['weapon_vintagepistol'] 		 = {['name'] = 'weapon_vintagepistol', 	 	  	['label'] = 'Vintage Pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_vintagepistol.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'An antique firearm designed to be held in one hand'},
+	['weapon_firework'] 			 = {['name'] = 'weapon_firework', 		 	  	['label'] = 'Firework Launcher', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_firework.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A device containing gunpowder and other combustible chemicals that causes a spectacular explosion when ignited'},
+	['weapon_musket'] 			     = {['name'] = 'weapon_musket', 			 	['label'] = 'Musket', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_musket.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'An infantryman\'s light gun with a long barrel, typically smooth-bored, muzzleloading, and fired from the shoulder'},
+	['weapon_heavyshotgun'] 		 = {['name'] = 'weapon_heavyshotgun', 	 	  	['label'] = 'Heavy Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_heavyshotgun.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A large smoothbore gun for firing small shot at short range'},
+	['weapon_marksmanrifle'] 		 = {['name'] = 'weapon_marksmanrifle', 	 	  	['label'] = 'Marksman Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'weapon_marksmanrifle.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'A very accurate single-fire rifle'},
+	['weapon_hominglauncher'] 		 = {['name'] = 'weapon_hominglauncher', 	 	['label'] = 'Homing Launcher', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_STINGER',			['image'] = 'weapon_hominglauncher.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A weapon fitted with an electronic device that enables it to find and hit a target'},
+	['weapon_proxmine'] 			 = {['name'] = 'weapon_proxmine', 		 	  	['label'] = 'Proxmine Grenade', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_proximitymine.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'A bomb placed on the ground that detonates when going within its proximity'},
+	['weapon_snowball'] 		     = {['name'] = 'weapon_snowball', 		 	  	['label'] = 'Snowball', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_snowball.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A ball of packed snow, especially one made for throwing at other people for fun'},
+	['weapon_flaregun'] 			 = {['name'] = 'weapon_flaregun', 		 	  	['label'] = 'Flare Gun', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_FLARE',			['image'] = 'weapon_flaregun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A handgun for firing signal rockets'},
+	['weapon_garbagebag'] 			 = {['name'] = 'weapon_garbagebag', 		 	['label'] = 'Garbage Bag', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_garbagebag.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A garbage bag'},
+	['weapon_handcuffs'] 			 = {['name'] = 'weapon_handcuffs', 		 	  	['label'] = 'Handcuffs', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_handcuffs.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A pair of lockable linked metal rings for securing a prisoner\'s wrists'},
+	['weapon_combatpdw'] 			 = {['name'] = 'weapon_combatpdw', 		 	  	['label'] = 'Combat PDW', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_combatpdw.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A combat version of a handheld lightweight machine gun'},
+	['weapon_marksmanpistol'] 		 = {['name'] = 'weapon_marksmanpistol', 	 	['label'] = 'Marksman Pistol', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_marksmanpistol.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A very accurate small firearm designed to be held in one hand'},
+	['weapon_knuckle'] 				 = {['name'] = 'weapon_knuckle', 		 	  	['label'] = 'Knuckle', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_knuckle.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A metal guard worn over the knuckles in fighting, especially to increase the effect of the blows'},
+	['weapon_hatchet'] 				 = {['name'] = 'weapon_hatchet', 		 	  	['label'] = 'Hatchet', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_hatchet.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A small axe with a short handle for use in one hand'},
+	['weapon_railgun'] 				 = {['name'] = 'weapon_railgun', 		 	  	['label'] = 'Railgun', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_railgun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A weapon that uses electromagnetic force to launch high velocity projectiles'},
+	['weapon_machete'] 				 = {['name'] = 'weapon_machete', 		 	  	['label'] = 'Machete', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_machete.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A broad, heavy knife used as a weapon'},
+	['weapon_machinepistol'] 		 = {['name'] = 'weapon_machinepistol', 	 	  	['label'] = 'Tec-9', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_machinepistol.png', ['unique'] = true, 		['useable'] = false, 	['description'] = 'A self-loading pistol capable of burst or fully automatic fire'},
+	['weapon_switchblade'] 			 = {['name'] = 'weapon_switchblade', 	 	  	['label'] = 'Switchblade', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_switchblade.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A knife with a blade that springs out from the handle when a button is pressed'},
+	['weapon_revolver'] 			 = {['name'] = 'weapon_revolver', 		 	  	['label'] = 'Revolver', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_PISTOL',			['image'] = 'weapon_revolver.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A pistol with revolving chambers enabling several shots to be fired without reloading'},
+	['weapon_dbshotgun'] 			 = {['name'] = 'weapon_dbshotgun', 		 	  	['label'] = 'Double-barrel Shotgun', 	['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_dbshotgun.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A shotgun with two parallel barrels, allowing two single shots to be fired in quick succession'},
+	['weapon_compactrifle'] 		 = {['name'] = 'weapon_compactrifle', 	 	  	['label'] = 'Compact Rifle', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_compactrifle.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A compact version of an assault rifle'},
+	['weapon_autoshotgun'] 			 = {['name'] = 'weapon_autoshotgun', 	 	  	['label'] = 'Auto Shotgun', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_autoshotgun.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A shotgun capable of rapid continous fire'},
+	['weapon_battleaxe'] 			 = {['name'] = 'weapon_battleaxe', 		 	  	['label'] = 'Battle Axe', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_battleaxe.png', 	['unique'] = true, 		['useable'] = false, 	['description'] = 'A large broad-bladed axe used in ancient warfare'},
+	['weapon_compactlauncher'] 		 = {['name'] = 'weapon_compactlauncher',  	  	['label'] = 'Compact Launcher', 		['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_compactlauncher.png', 	['unique'] = true, 	['useable'] = false, 	['description'] = 'A compact grenade launcher'},
+	['weapon_minismg'] 				 = {['name'] = 'weapon_minismg', 		 	  	['label'] = 'Mini SMG', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SMG',				['image'] = 'weapon_minismg.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A mini handheld lightweight machine gun'},
+	['weapon_pipebomb'] 			 = {['name'] = 'weapon_pipebomb', 		 	  	['label'] = 'Pipe Bomb', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_pipebomb.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A homemade bomb, the components of which are contained in a pipe'},
+	['weapon_poolcue'] 				 = {['name'] = 'weapon_poolcue', 		 	  	['label'] = 'Poolcue', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_poolcue.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A stick used to strike a ball, usually the cue ball (sometimes)'},
+	['weapon_wrench'] 				 = {['name'] = 'weapon_wrench', 			 	['label'] = 'Wrench', 					['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'weapon_wrench.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A tool used for gripping and turning nuts, bolts, pipes, etc'},
+	['weapon_bread'] 				 = {['name'] = 'weapon_bread', 				 	['label'] = 'Baquette', 				['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,						['image'] = 'baquette.png', 			['unique'] = true, 		['useable'] = false, 	['description'] = 'Bread..?'},
 }
 
 -- Gangs
@@ -854,7 +854,7 @@ QBShared.Vehicles = {
 		['model'] = 'adder',
 		['price'] = 280000,
 		['category'] = 'super',
-		['hash'] = `adder`,
+		['hash'] = 'adder',
 		['shop'] = 'pdm',
 	},
 	['alpha'] = {
@@ -863,7 +863,7 @@ QBShared.Vehicles = {
 		['model'] = 'alpha',
 		['price'] = 53000,
 		['category'] = 'sports',
-		['hash'] = `alpha`,
+		['hash'] = 'alpha',
 		['shop'] = 'pdm',
 	},
 	['ardent'] = {
@@ -872,7 +872,7 @@ QBShared.Vehicles = {
 		['model'] = 'ardent',
 		['price'] = 30000,
 		['category'] = 'sportsclassics',
-		['hash'] = `ardent`,
+		['hash'] = 'ardent',
 		['shop'] = 'pdm',
 	},
 	['asea'] = {
@@ -881,7 +881,7 @@ QBShared.Vehicles = {
 		['model'] = 'asea',
 		['price'] = 2500,
 		['category'] = 'sedans',
-		['hash'] = `asea`,
+		['hash'] = 'asea',
 		['shop'] = 'pdm',
 	},
 	['autarch'] = {
@@ -890,7 +890,7 @@ QBShared.Vehicles = {
 		['model'] = 'autarch',
 		['price'] = 224000,
 		['category'] = 'super',
-		['hash'] = `autarch`,
+		['hash'] = 'autarch',
 		['shop'] = 'pdm',
 	},
 	['avarus'] = {
@@ -899,7 +899,7 @@ QBShared.Vehicles = {
 		['model'] = 'avarus',
 		['price'] = 20000,
 		['category'] = 'motorcycles',
-		['hash'] = `avarus`,
+		['hash'] = 'avarus',
 		['shop'] = 'pdm',
 	},
 	['bagger'] = {
@@ -908,7 +908,7 @@ QBShared.Vehicles = {
 		['model'] = 'bagger',
 		['price'] = 13500,
 		['category'] = 'motorcycles',
-		['hash'] = `bagger`,
+		['hash'] = 'bagger',
 		['shop'] = 'pdm',
 	},
 	['baller2'] = {
@@ -917,7 +917,7 @@ QBShared.Vehicles = {
 		['model'] = 'baller2',
 		['price'] = 15000,
 		['category'] = 'suvs',
-		['hash'] = `baller2`,
+		['hash'] = 'baller2',
 		['shop'] = 'pdm',
 	},
 	['baller3'] = {
@@ -926,7 +926,7 @@ QBShared.Vehicles = {
 		['model'] = 'baller3',
 		['price'] = 15000,
 		['category'] = 'suvs',
-		['hash'] = `baller3`,
+		['hash'] = 'baller3',
 		['shop'] = 'pdm',
 	},
 	['banshee'] = {
@@ -935,7 +935,7 @@ QBShared.Vehicles = {
 		['model'] = 'banshee',
 		['price'] = 56000,
 		['category'] = 'sports',
-		['hash'] = `banshee`,
+		['hash'] = 'banshee',
 		['shop'] = 'pdm',
 	},
 	['banshee2'] = {
@@ -944,7 +944,7 @@ QBShared.Vehicles = {
 		['model'] = 'banshee2',
 		['price'] = 120000,
 		['category'] = 'super',
-		['hash'] = `banshee2`,
+		['hash'] = 'banshee2',
 		['shop'] = 'pdm',
 	},
 	['bati'] = {
@@ -953,7 +953,7 @@ QBShared.Vehicles = {
 		['model'] = 'bati',
 		['price'] = 24000,
 		['category'] = 'motorcycles',
-		['hash'] = `bati`,
+		['hash'] = 'bati',
 		['shop'] = 'pdm',
 	},
 	['bestiagts'] = {
@@ -962,7 +962,7 @@ QBShared.Vehicles = {
 		['model'] = 'bestiagts',
 		['price'] = 37000,
 		['category'] = 'sports',
-		['hash'] = `bestiagts`,
+		['hash'] = 'bestiagts',
 		['shop'] = 'pdm',
 	},
 	['bfinjection'] = {
@@ -971,7 +971,7 @@ QBShared.Vehicles = {
 		['price'] = 9000,
 		['category'] = 'offroad',
 		['model'] = 'bfinjection',
-		['hash'] = `bfinjection`,
+		['hash'] = 'bfinjection',
 		['shop'] = 'pdm',
 	},
 	['bifta'] = {
@@ -980,7 +980,7 @@ QBShared.Vehicles = {
 		['price'] = 15500,
 		['category'] = 'offroad',
 		['model'] = 'bifta',
-		['hash'] = `bifta`,
+		['hash'] = 'bifta',
 		['shop'] = 'pdm',
 	},
 	['bison'] = {
@@ -989,7 +989,7 @@ QBShared.Vehicles = {
 		['model'] = 'bison',
 		['price'] = 18000,
 		['category'] = 'vans',
-		['hash'] = `bison`,
+		['hash'] = 'bison',
 		['shop'] = 'pdm',
 	},
 	['bjxl'] = {
@@ -998,7 +998,7 @@ QBShared.Vehicles = {
 		['model'] = 'bjxl',
 		['price'] = 19000,
 		['category'] = 'suvs',
-		['hash'] = `bjxl`,
+		['hash'] = 'bjxl',
 		['shop'] = 'pdm',
 	},
 	['blade'] = {
@@ -1007,7 +1007,7 @@ QBShared.Vehicles = {
 		['model'] = 'blade',
 		['price'] = 23500,
 		['category'] = 'muscle',
-		['hash'] = `blade`,
+		['hash'] = 'blade',
 		['shop'] = 'pdm',
 	},
 	['blazer'] = {
@@ -1015,7 +1015,7 @@ QBShared.Vehicles = {
 		['price'] = 7500,
 		['category'] = 'offroad',
 		['model'] = 'blazer',
-		['hash'] = `blazer`,
+		['hash'] = 'blazer',
 		['shop'] = 'pdm',
 	},
 	['blazer4'] = {
@@ -1024,7 +1024,7 @@ QBShared.Vehicles = {
 		['price'] = 9250,
 		['category'] = 'offroad',
 		['model'] = 'blazer4',
-		['hash'] = `blazer4`,
+		['hash'] = 'blazer4',
 		['shop'] = 'pdm',
 	},
 	['blista'] = {
@@ -1033,7 +1033,7 @@ QBShared.Vehicles = {
 		['model'] = 'blista',
 		['price'] = 13000,
 		['category'] = 'compacts',
-		['hash'] = `blista`,
+		['hash'] = 'blista',
 		['shop'] = 'pdm',
 	},
 	['blista2'] = {
@@ -1042,7 +1042,7 @@ QBShared.Vehicles = {
 		['model'] = 'blista2',
 		['price'] = 18950,
 		['category'] = 'compacts',
-		['hash'] = `blista2`,
+		['hash'] = 'blista2',
 		['shop'] = 'pdm',
 	},
 	['bobcatxl'] = {
@@ -1051,7 +1051,7 @@ QBShared.Vehicles = {
 		['model'] = 'bobcatxl',
 		['price'] = 13500,
 		['category'] = 'vans',
-		['hash'] = `bobcatxl`,
+		['hash'] = 'bobcatxl',
 		['shop'] = 'pdm',
 	},
 	['brawler'] = {
@@ -1060,7 +1060,7 @@ QBShared.Vehicles = {
 		['price'] = 40000,
 		['category'] = 'offroad',
 		['model'] = 'brawler',
-		['hash'] = `brawler`,
+		['hash'] = 'brawler',
 		['shop'] = 'pdm',
 	},
 	['brioso'] = {
@@ -1069,7 +1069,7 @@ QBShared.Vehicles = {
 		['model'] = 'brioso',
 		['price'] = 20000,
 		['category'] = 'compacts',
-		['hash'] = `brioso`,
+		['hash'] = 'brioso',
 		['shop'] = 'pdm',
 	},
 	['btype'] = {              --meme car that goes pretty fast 
@@ -1078,7 +1078,7 @@ QBShared.Vehicles = {
 		['model'] = 'btype',
 		['price'] = 75000,
 		['category'] = 'sportsclassics',
-		['hash'] = `btype`,
+		['hash'] = 'btype',
 		['shop'] = 'pdm',
 	},
 	['btype2'] = {
@@ -1087,7 +1087,7 @@ QBShared.Vehicles = {
 		['model'] = 'btype2',
 		['price'] = 87000,
 		['category'] = 'sportsclassics',
-		['hash'] = `btype2`,
+		['hash'] = 'btype2',
 		['shop'] = 'pdm',
 	},
 	['btype3'] = {
@@ -1096,7 +1096,7 @@ QBShared.Vehicles = {
 		['model'] = 'btype3',
 		['price'] = 63000,
 		['category'] = 'sportsclassics',
-		['hash'] = `btype3`,
+		['hash'] = 'btype3',
 		['shop'] = 'pdm',
 	},
 	['buccaneer'] = {
@@ -1105,7 +1105,7 @@ QBShared.Vehicles = {
 		['model'] = 'buccaneer',
 		['price'] = 22500,
 		['category'] = 'muscle',
-		['hash'] = `buccaneer`,
+		['hash'] = 'buccaneer',
 		['shop'] = 'pdm',
 	},
 	['buccaneer2'] = {
@@ -1114,7 +1114,7 @@ QBShared.Vehicles = {
 		['model'] = 'buccaneer2',
 		['price'] = 24500,
 		['category'] = 'muscle',
-		['hash'] = `buccaneer2`,
+		['hash'] = 'buccaneer2',
 		['shop'] = 'pdm',
 	},
 	['buffalo'] = {
@@ -1123,7 +1123,7 @@ QBShared.Vehicles = {
 		['model'] = 'buffalo',
 		['price'] = 18750,
 		['category'] = 'sports',
-		['hash'] = `buffalo`,
+		['hash'] = 'buffalo',
 		['shop'] = 'pdm',
 	},
 	['buffalo2'] = {
@@ -1132,7 +1132,7 @@ QBShared.Vehicles = {
 		['model'] = 'buffalo2',
 		['price'] = 24500,
 		['category'] = 'sports',
-		['hash'] = `buffalo2`,
+		['hash'] = 'buffalo2',
 		['shop'] = 'pdm',
 	},
 	['bullet'] = {
@@ -1141,7 +1141,7 @@ QBShared.Vehicles = {
 		['model'] = 'bullet',
 		['price'] = 120000,
 		['category'] = 'super',
-		['hash'] = `bullet`,
+		['hash'] = 'bullet',
 		['shop'] = 'pdm',
 	},
 	['burrito3'] = {
@@ -1150,7 +1150,7 @@ QBShared.Vehicles = {
 		['model'] = 'burrito3',
 		['price'] = 4000,
 		['category'] = 'vans',
-		['hash'] = `burrito3`,
+		['hash'] = 'burrito3',
 		['shop'] = 'pdm',
 	},
 	['gburrito2'] = {
@@ -1159,7 +1159,7 @@ QBShared.Vehicles = {
 		['model'] = 'gburrito2',
 		['price'] = 11500,
 		['category'] = 'vans',
-		['hash'] = `gburrito2`,
+		['hash'] = 'gburrito2',
 		['shop'] = 'pdm',
 	},
 	['carbonizzare'] = {
@@ -1168,7 +1168,7 @@ QBShared.Vehicles = {
 		['model'] = 'carbonizzare',
 		['price'] = 155000,
 		['category'] = 'sports',
-		['hash'] = `carbonizzare`,
+		['hash'] = 'carbonizzare',
 		['shop'] = 'pdm',
 	},
 	['carbonrs'] = {
@@ -1177,7 +1177,7 @@ QBShared.Vehicles = {
 		['model'] = 'carbonrs',
 		['price'] = 22000,
 		['category'] = 'motorcycles',
-		['hash'] = `carbonrs`,
+		['hash'] = 'carbonrs',
 		['shop'] = 'pdm',
 	},
 	['casco'] = {
@@ -1186,7 +1186,7 @@ QBShared.Vehicles = {
 		['model'] = 'casco',
 		['price'] = 100000,
 		['category'] = 'sportsclassics',
-		['hash'] = `casco`,
+		['hash'] = 'casco',
 		['shop'] = 'pdm',
 	},
 	['cavalcade2'] = {
@@ -1195,7 +1195,7 @@ QBShared.Vehicles = {
 		['model'] = 'cavalcade2',
 		['price'] = 16500,
 		['category'] = 'suvs',
-		['hash'] = `cavalcade2`,
+		['hash'] = 'cavalcade2',
 		['shop'] = 'pdm',
 	},
 	['cheetah'] = {
@@ -1204,7 +1204,7 @@ QBShared.Vehicles = {
 		['model'] = 'cheetah',
 		['price'] = 214000,
 		['category'] = 'super',
-		['hash'] = `cheetah`,
+		['hash'] = 'cheetah',
 		['shop'] = 'pdm',
 	},
 	['cheetah2'] = {
@@ -1213,7 +1213,7 @@ QBShared.Vehicles = {
 		['model'] = 'cheetah2',
 		['price'] = 195000,
 		['category'] = 'sports',
-		['hash'] = `cheetah2`,
+		['hash'] = 'cheetah2',
 		['shop'] = 'pdm',
 	},
 	['chimera'] = {
@@ -1222,7 +1222,7 @@ QBShared.Vehicles = {
 		['model'] = 'chimera',
 		['price'] = 21000,
 		['category'] = 'motorcycles',
-		['hash'] = `chimera`,
+		['hash'] = 'chimera',
 		['shop'] = 'pdm',
 	},
 	['chino'] = {
@@ -1231,7 +1231,7 @@ QBShared.Vehicles = {
 		['model'] = 'chino',
 		['price'] = 5000,
 		['category'] = 'muscle',
-		['hash'] = `chino`,
+		['hash'] = 'chino',
 		['shop'] = 'pdm',
 	},
 	['chino2'] = {
@@ -1240,7 +1240,7 @@ QBShared.Vehicles = {
 		['model'] = 'chino2',
 		['price'] = 8000,
 		['category'] = 'muscle',
-		['hash'] = `chino2`,
+		['hash'] = 'chino2',
 		['shop'] = 'pdm',
 	},
 	['cogcabrio'] = {
@@ -1249,7 +1249,7 @@ QBShared.Vehicles = {
 		['model'] = 'cogcabrio',
 		['price'] = 30000,
 		['category'] = 'coupes',
-		['hash'] = `cogcabrio`,
+		['hash'] = 'cogcabrio',
 		['shop'] = 'pdm',
 	},
 	['cognoscenti'] = {
@@ -1258,7 +1258,7 @@ QBShared.Vehicles = {
 		['model'] = 'cognoscenti',
 		['price'] = 22500,
 		['category'] = 'sedans',
-		['hash'] = `cognoscenti`,
+		['hash'] = 'cognoscenti',
 		['shop'] = 'pdm',
 	},
 	['comet2'] = {
@@ -1267,7 +1267,7 @@ QBShared.Vehicles = {
 		['model'] = 'comet2',
 		['price'] = 130000,
 		['category'] = 'sports',
-		['hash'] = `comet2`,
+		['hash'] = 'comet2',
 		['shop'] = 'pdm',
 	},
 	['comet3'] = {
@@ -1276,7 +1276,7 @@ QBShared.Vehicles = {
 		['model'] = 'comet3',
 		['price'] = 175000,
 		['category'] = 'sports',
-		['hash'] = `comet3`,
+		['hash'] = 'comet3',
 		['shop'] = 'pdm',
 	},
 	['comet5'] = {
@@ -1285,7 +1285,7 @@ QBShared.Vehicles = {
 		['model'] = 'comet5',
 		['price'] = 155000,
 		['category'] = 'sports',
-		['hash'] = `comet5`,
+		['hash'] = 'comet5',
 		['shop'] = 'pdm',
 	},
 	['coquette'] = {
@@ -1294,7 +1294,7 @@ QBShared.Vehicles = {
 		['model'] = 'coquette',
 		['price'] = 145000,
 		['category'] = 'sports',
-		['hash'] = `coquette`,
+		['hash'] = 'coquette',
 		['shop'] = 'pdm',
 	},
 	['coquette2'] = {
@@ -1303,7 +1303,7 @@ QBShared.Vehicles = {
 		['model'] = 'coquette2',
 		['price'] = 165000,
 		['category'] = 'sportsclassics',
-		['hash'] = `coquette2`,
+		['hash'] = 'coquette2',
 		['shop'] = 'pdm',
 	},
 	['coquette3'] = {
@@ -1312,7 +1312,7 @@ QBShared.Vehicles = {
 		['model'] = 'coquette3',
 		['price'] = 180000,
 		['category'] = 'muscle',
-		['hash'] = `coquette3`,
+		['hash'] = 'coquette3',
 		['shop'] = 'pdm',
 	},
 	['cyclone'] = {         --might be too overpowered 
@@ -1321,7 +1321,7 @@ QBShared.Vehicles = {
 		['model'] = 'cyclone',
 		['price'] = 300000,
 		['category'] = 'super',
-		['hash'] = `cyclone`,
+		['hash'] = 'cyclone',
 		['shop'] = 'pdm',
 	},
 	['daemon'] = {
@@ -1330,7 +1330,7 @@ QBShared.Vehicles = {
 		['model'] = 'daemon',
 		['price'] = 14000,
 		['category'] = 'motorcycles',
-		['hash'] = `daemon`,
+		['hash'] = 'daemon',
 		['shop'] = 'pdm',
 	},
 	['defiler'] = {
@@ -1339,7 +1339,7 @@ QBShared.Vehicles = {
 		['model'] = 'defiler',
 		['price'] = 30000,
 		['category'] = 'motorcycles',
-		['hash'] = `defiler`,
+		['hash'] = 'defiler',
 		['shop'] = 'pdm',
 	},
 	['dilettante'] = {
@@ -1348,7 +1348,7 @@ QBShared.Vehicles = {
 		['model'] = 'dilettante',
 		['price'] = 9000,
 		['category'] = 'compacts',
-		['hash'] = `dilettante`,
+		['hash'] = 'dilettante',
 		['shop'] = 'pdm',
 	},
 	['dominator'] = {
@@ -1357,7 +1357,7 @@ QBShared.Vehicles = {
 		['model'] = 'dominator',
 		['price'] = 62500,
 		['category'] = 'muscle',
-		['hash'] = `dominator`,
+		['hash'] = 'dominator',
 		['shop'] = 'pdm',
 	},
 	['dubsta2'] = {
@@ -1366,7 +1366,7 @@ QBShared.Vehicles = {
 		['model'] = 'dubsta2',
 		['price'] = 19500,
 		['category'] = 'suvs',
-		['hash'] = `dubsta2`,
+		['hash'] = 'dubsta2',
 		['shop'] = 'pdm',
 	},
 	['dubsta3'] = {
@@ -1375,7 +1375,7 @@ QBShared.Vehicles = {
 		['price'] = 34000,
 		['category'] = 'offroad',
 		['model'] = 'dubsta3',
-		['hash'] = `dubsta3`,
+		['hash'] = 'dubsta3',
 		['shop'] = 'pdm',
 	},
 	['dukes'] = {
@@ -1384,7 +1384,7 @@ QBShared.Vehicles = {
 		['model'] = 'dukes',
 		['price'] = 23500,
 		['category'] = 'muscle',
-		['hash'] = `dukes`,
+		['hash'] = 'dukes',
 		['shop'] = 'pdm',
 	},
 	['dune'] = {
@@ -1393,7 +1393,7 @@ QBShared.Vehicles = {
 		['price'] = 14000,
 		['category'] = 'offroad',
 		['model'] = 'dune',
-		['hash'] = `dune`,
+		['hash'] = 'dune',
 		['shop'] = 'pdm',
 	},
 	['elegy'] = {
@@ -1402,7 +1402,7 @@ QBShared.Vehicles = {
 		['model'] = 'elegy',
 		['price'] = 145000,
 		['category'] = 'sports',
-		['hash'] = `elegy`,
+		['hash'] = 'elegy',
 		['shop'] = 'pdm',
 	},
 	['elegy2'] = {
@@ -1411,7 +1411,7 @@ QBShared.Vehicles = {
 		['model'] = 'elegy2',
 		['price'] = 150000,
 		['category'] = 'sports',
-		['hash'] = `elegy2`,
+		['hash'] = 'elegy2',
 		['shop'] = 'pdm',
 	},
 	['ellie'] = {
@@ -1420,7 +1420,7 @@ QBShared.Vehicles = {
 		['model'] = 'ellie',
 		['price'] = 42250,
 		['category'] = 'muscle',
-		['hash'] = `ellie`,
+		['hash'] = 'ellie',
 		['shop'] = 'pdm',
 	},
 	['emperor'] = {
@@ -1429,7 +1429,7 @@ QBShared.Vehicles = {
 		['model'] = 'emperor',
 		['price'] = 4250,
 		['category'] = 'sedans',
-		['hash'] = `emperor`,
+		['hash'] = 'emperor',
 		['shop'] = 'pdm',
 	},
 	['entity2'] = {
@@ -1438,7 +1438,7 @@ QBShared.Vehicles = {
 		['model'] = 'entity2',
 		['price'] = 164000,
 		['category'] = 'super',
-		['hash'] = `entity2`,
+		['hash'] = 'entity2',
 		['shop'] = 'pdm',
 	},
 	['entityxf'] = {
@@ -1447,7 +1447,7 @@ QBShared.Vehicles = {
 		['model'] = 'entityxf',
 		['price'] = 180000,
 		['category'] = 'super',
-		['hash'] = `entityxf`,
+		['hash'] = 'entityxf',
 		['shop'] = 'pdm',
 	},
 	['esskey'] = {
@@ -1456,7 +1456,7 @@ QBShared.Vehicles = {
 		['model'] = 'esskey',
 		['price'] = 12000,
 		['category'] = 'motorcycles',
-		['hash'] = `esskey`,
+		['hash'] = 'esskey',
 		['shop'] = 'pdm',
 	},
 	['exemplar'] = {
@@ -1465,7 +1465,7 @@ QBShared.Vehicles = {
 		['model'] = 'exemplar',
 		['price'] = 40000,
 		['category'] = 'coupes',
-		['hash'] = `exemplar`,
+		['hash'] = 'exemplar',
 		['shop'] = 'pdm',
 	},
 	['f620'] = {
@@ -1474,7 +1474,7 @@ QBShared.Vehicles = {
 		['model'] = 'f620',
 		['price'] = 32500,
 		['category'] = 'coupes',
-		['hash'] = `f620`,
+		['hash'] = 'f620',
 		['shop'] = 'pdm',
 	},
 	['faction'] = {
@@ -1483,7 +1483,7 @@ QBShared.Vehicles = {
 		['model'] = 'faction',
 		['price'] = 17000,
 		['category'] = 'muscle',
-		['hash'] = `faction`,
+		['hash'] = 'faction',
 		['shop'] = 'pdm',
 	},
 	['faction2'] = {
@@ -1492,7 +1492,7 @@ QBShared.Vehicles = {
 		['model'] = 'faction2',
 		['price'] = 19000,
 		['category'] = 'muscle',
-		['hash'] = `faction2`,
+		['hash'] = 'faction2',
 		['shop'] = 'pdm',
 	},
 	['fagaloa'] = {
@@ -1501,7 +1501,7 @@ QBShared.Vehicles = {
 		['model'] = 'fagaloa',
 		['price'] = 13000,
 		['category'] = 'sportsclassics',
-		['hash'] = `fagaloa`,
+		['hash'] = 'fagaloa',
 		['shop'] = 'pdm',
 	},
 	['faggio'] = {
@@ -1510,7 +1510,7 @@ QBShared.Vehicles = {
 		['model'] = 'faggio',
 		['price'] = 2000,
 		['category'] = 'motorcycles',
-		['hash'] = `faggio`,
+		['hash'] = 'faggio',
 		['shop'] = 'pdm',
 	},
 	['faggio3'] = {
@@ -1519,7 +1519,7 @@ QBShared.Vehicles = {
 		['model'] = 'faggio3',
 		['price'] = 2500,
 		['category'] = 'motorcycles',
-		['hash'] = `faggio3`,
+		['hash'] = 'faggio3',
 		['shop'] = 'pdm',
 	},
 	['felon'] = {
@@ -1528,7 +1528,7 @@ QBShared.Vehicles = {
 		['model'] = 'felon',
 		['price'] = 31000,
 		['category'] = 'coupes',
-		['hash'] = `felon`,
+		['hash'] = 'felon',
 		['shop'] = 'pdm',
 	},
 	['felon2'] = {
@@ -1537,7 +1537,7 @@ QBShared.Vehicles = {
 		['model'] = 'felon2',
 		['price'] = 37000,
 		['category'] = 'coupes',
-		['hash'] = `felon2`,
+		['hash'] = 'felon2',
 		['shop'] = 'pdm',
 	},
 	['feltzer2'] = {
@@ -1546,7 +1546,7 @@ QBShared.Vehicles = {
 		['model'] = 'feltzer2',
 		['price'] = 97000,
 		['category'] = 'sports',
-		['hash'] = `feltzer2`,
+		['hash'] = 'feltzer2',
 		['shop'] = 'pdm',
 	},
 	['feltzer3'] = {
@@ -1555,7 +1555,7 @@ QBShared.Vehicles = {
 		['model'] = 'feltzer3',
 		['price'] = 115000,
 		['category'] = 'sportsclassics',
-		['hash'] = `feltzer3`,
+		['hash'] = 'feltzer3',
 		['shop'] = 'pdm',
 	},
 	['flashgt'] = {
@@ -1564,7 +1564,7 @@ QBShared.Vehicles = {
 		['model'] = 'flashgt',
 		['price'] = 48000,
 		['category'] = 'sports',
-		['hash'] = `flashgt`,
+		['hash'] = 'flashgt',
 		['shop'] = 'pdm',
 	},
 	['fmj'] = {
@@ -1573,7 +1573,7 @@ QBShared.Vehicles = {
 		['model'] = 'fmj',
 		['price'] = 125000,
 		['category'] = 'super',
-		['hash'] = `fmj`,
+		['hash'] = 'fmj',
 		['shop'] = 'pdm',
 	},
 	['fq2'] = {
@@ -1582,7 +1582,7 @@ QBShared.Vehicles = {
 		['model'] = 'fq2',
 		['price'] = 18500,
 		['category'] = 'suvs',
-		['hash'] = `fq2`,
+		['hash'] = 'fq2',
 		['shop'] = 'pdm',
 	},
 	['fugitive'] = {
@@ -1591,7 +1591,7 @@ QBShared.Vehicles = {
 		['model'] = 'fugitive',
 		['price'] = 20000,
 		['category'] = 'sedans',
-		['hash'] = `fugitive`,
+		['hash'] = 'fugitive',
 		['shop'] = 'pdm',
 	},
 	['furoregt'] = {
@@ -1600,7 +1600,7 @@ QBShared.Vehicles = {
 		['model'] = 'furoregt',
 		['price'] = 78000,
 		['category'] = 'sports',
-		['hash'] = `furoregt`,
+		['hash'] = 'furoregt',
 		['shop'] = 'pdm',
 	},
 	['futo'] = {
@@ -1609,7 +1609,7 @@ QBShared.Vehicles = {
 		['model'] = 'futo',
 		['price'] = 17500,
 		['category'] = 'coupes',
-		['hash'] = `futo`,
+		['hash'] = 'futo',
 		['shop'] = 'pdm',
 	},
 	['gauntlet'] = {
@@ -1618,7 +1618,7 @@ QBShared.Vehicles = {
 		['model'] = 'gauntlet',
 		['price'] = 28500,
 		['category'] = 'muscle',
-		['hash'] = `gauntlet`,
+		['hash'] = 'gauntlet',
 		['shop'] = 'pdm',
 	},
 	['glendale'] = {
@@ -1627,7 +1627,7 @@ QBShared.Vehicles = {
 		['model'] = 'glendale',
 		['price'] = 3400,
 		['category'] = 'sedans',
-		['hash'] = `glendale`,
+		['hash'] = 'glendale',
 		['shop'] = 'pdm',
 	},
 	['gp1'] = {
@@ -1636,7 +1636,7 @@ QBShared.Vehicles = {
 		['model'] = 'gp1',
 		['price'] = 110000,
 		['category'] = 'super',
-		['hash'] = `gp1`,
+		['hash'] = 'gp1',
 		['shop'] = 'pdm',
 	},
 	['granger'] = {
@@ -1645,7 +1645,7 @@ QBShared.Vehicles = {
 		['model'] = 'granger',
 		['price'] = 22000,
 		['category'] = 'suvs',
-		['hash'] = `granger`,
+		['hash'] = 'granger',
 		['shop'] = 'pdm',
 	},
 	['gresley'] = {
@@ -1654,7 +1654,7 @@ QBShared.Vehicles = {
 		['model'] = 'gresley',
 		['price'] = 25000,
 		['category'] = 'suvs',
-		['hash'] = `gresley`,
+		['hash'] = 'gresley',
 		['shop'] = 'pdm',
 	},
 	['gt500'] = {
@@ -1663,7 +1663,7 @@ QBShared.Vehicles = {
 		['model'] = 'gt500',
 		['price'] = 130000,
 		['category'] = 'sportsclassics',
-		['hash'] = `gt500`,
+		['hash'] = 'gt500',
 		['shop'] = 'pdm',
 	},
 	['guardian'] = {
@@ -1672,7 +1672,7 @@ QBShared.Vehicles = {
 		['price'] = 21000,
 		['category'] = 'offroad',
 		['model'] = 'guardian',
-		['hash'] = `guardian`,
+		['hash'] = 'guardian',
 		['shop'] = 'pdm',
 	},
 	['hakuchou'] = {
@@ -1681,7 +1681,7 @@ QBShared.Vehicles = {
 		['model'] = 'hakuchou',
 		['price'] = 17000,
 		['category'] = 'motorcycles',
-		['hash'] = `hakuchou`,
+		['hash'] = 'hakuchou',
 		['shop'] = 'pdm',
 	},
 	['hexer'] = {
@@ -1690,7 +1690,7 @@ QBShared.Vehicles = {
 		['model'] = 'hexer',
 		['price'] = 16000,
 		['category'] = 'motorcycles',
-		['hash'] = `hexer`,
+		['hash'] = 'hexer',
 		['shop'] = 'pdm',
 	},
 	['hotknife'] = {
@@ -1699,7 +1699,7 @@ QBShared.Vehicles = {
 		['model'] = 'hotknife',
 		['price'] = 90000,
 		['category'] = 'muscle',
-		['hash'] = `hotknife`,
+		['hash'] = 'hotknife',
 		['shop'] = 'pdm',
 	},
 	['huntley'] = {
@@ -1708,7 +1708,7 @@ QBShared.Vehicles = {
 		['model'] = 'huntley',
 		['price'] = 24500,
 		['category'] = 'suvs',
-		['hash'] = `huntley`,
+		['hash'] = 'huntley',
 		['shop'] = 'pdm',
 	},
 	['hustler'] = {
@@ -1717,7 +1717,7 @@ QBShared.Vehicles = {
 		['model'] = 'hustler',
 		['price'] = 95000,
 		['category'] = 'muscle',
-		['hash'] = `hustler`,
+		['hash'] = 'hustler',
 		['shop'] = 'pdm',
 	},
 	['infernus'] = {
@@ -1726,7 +1726,7 @@ QBShared.Vehicles = {
 		['model'] = 'infernus',
 		['price'] = 235000,
 		['category'] = 'super',
-		['hash'] = `infernus`,
+		['hash'] = 'infernus',
 		['shop'] = 'pdm',
 	},
 	['infernus2'] = {         
@@ -1735,7 +1735,7 @@ QBShared.Vehicles = {
 		['model'] = 'infernus2',
 		['price'] = 245000,
 		['category'] = 'sportsclassics',
-		['hash'] = `infernus2`,
+		['hash'] = 'infernus2',
 		['shop'] = 'pdm',
 	},
 	['intruder'] = {
@@ -1744,7 +1744,7 @@ QBShared.Vehicles = {
 		['model'] = 'intruder',
 		['price'] = 11250,
 		['category'] = 'sedans',
-		['hash'] = `intruder`,
+		['hash'] = 'intruder',
 		['shop'] = 'pdm',
 	},
 	['issi2'] = {
@@ -1753,7 +1753,7 @@ QBShared.Vehicles = {
 		['model'] = 'issi2',
 		['price'] = 7000,
 		['category'] = 'compacts',
-		['hash'] = `issi2`,
+		['hash'] = 'issi2',
 		['shop'] = 'pdm',
 	},
 	['issi3'] = {
@@ -1762,7 +1762,7 @@ QBShared.Vehicles = {
 		['model'] = 'issi3',
 		['price'] = 5000,
 		['category'] = 'compacts',
-		['hash'] = `issi3`,
+		['hash'] = 'issi3',
 		['shop'] = 'pdm',
 	},
 	['italigtb'] = {
@@ -1771,7 +1771,7 @@ QBShared.Vehicles = {
 		['model'] = 'italigtb',
 		['price'] = 170000,
 		['category'] = 'super',
-		['hash'] = `italigtb`,
+		['hash'] = 'italigtb',
 		['shop'] = 'pdm',
 	},
 	['jackal'] = {
@@ -1780,7 +1780,7 @@ QBShared.Vehicles = {
 		['model'] = 'jackal',
 		['price'] = 19000,
 		['category'] = 'coupes',
-		['hash'] = `jackal`,
+		['hash'] = 'jackal',
 		['shop'] = 'pdm',
 	},
 	['jester'] = {
@@ -1789,7 +1789,7 @@ QBShared.Vehicles = {
 		['model'] = 'jester',
 		['price'] = 132250,
 		['category'] = 'sports',
-		['hash'] = `jester`,
+		['hash'] = 'jester',
 		['shop'] = 'pdm',
 	},
 	['jester3'] = {
@@ -1798,7 +1798,7 @@ QBShared.Vehicles = {
 		['model'] = 'jester3',
 		['price'] = 85000,
 		['category'] = 'sports',
-		['hash'] = `jester3`,
+		['hash'] = 'jester3',
 		['shop'] = 'pdm',
 	},
 	['khamelion'] = {
@@ -1807,7 +1807,7 @@ QBShared.Vehicles = {
 		['model'] = 'khamelion',
 		['price'] = 90000,
 		['category'] = 'sports',
-		['hash'] = `khamelion`,
+		['hash'] = 'khamelion',
 		['shop'] = 'pdm',
 	},
 	['kuruma'] = {
@@ -1816,7 +1816,7 @@ QBShared.Vehicles = {
 		['model'] = 'kuruma',
 		['price'] = 72000,
 		['category'] = 'sports',
-		['hash'] = `kuruma`,
+		['hash'] = 'kuruma',
 		['shop'] = 'pdm',
 	},
 	['landstalker'] = {
@@ -1825,7 +1825,7 @@ QBShared.Vehicles = {
 		['model'] = 'landstalker',
 		['price'] = 12000,
 		['category'] = 'suvs',
-		['hash'] = `landstalker`,
+		['hash'] = 'landstalker',
 		['shop'] = 'pdm',
 	},
 	['lynx'] = {
@@ -1834,7 +1834,7 @@ QBShared.Vehicles = {
 		['model'] = 'lynx',
 		['price'] = 150000,
 		['category'] = 'sports',
-		['hash'] = `lynx`,
+		['hash'] = 'lynx',
 		['shop'] = 'pdm',
 	},
 	['mamba'] = {
@@ -1843,7 +1843,7 @@ QBShared.Vehicles = {
 		['model'] = 'mamba',
 		['price'] = 140000,
 		['category'] = 'sportsclassics',
-		['hash'] = `mamba`,
+		['hash'] = 'mamba',
 		['shop'] = 'pdm',
 	},
 	['massacro'] = {
@@ -1852,7 +1852,7 @@ QBShared.Vehicles = {
 		['model'] = 'massacro',
 		['price'] = 110000,
 		['category'] = 'sports',
-		['hash'] = `massacro`,
+		['hash'] = 'massacro',
 		['shop'] = 'pdm',
 	},
 	['monroe'] = {
@@ -1861,7 +1861,7 @@ QBShared.Vehicles = {
 		['model'] = 'monroe',
 		['price'] = 115000,
 		['category'] = 'sportsclassics',
-		['hash'] = `monroe`,
+		['hash'] = 'monroe',
 		['shop'] = 'pdm',
 	},
 	['moonbeam'] = {
@@ -1870,7 +1870,7 @@ QBShared.Vehicles = {
 		['model'] = 'moonbeam',
 		['price'] = 13000,
 		['category'] = 'vans',
-		['hash'] = `moonbeam`,
+		['hash'] = 'moonbeam',
 		['shop'] = 'pdm',
 	},
 	['nemesis'] = {
@@ -1879,7 +1879,7 @@ QBShared.Vehicles = {
 		['model'] = 'nemesis',
 		['price'] = 20000,
 		['category'] = 'motorcycles',
-		['hash'] = `nemesis`,
+		['hash'] = 'nemesis',
 		['shop'] = 'pdm',
 	},
 	['neon'] = {
@@ -1888,7 +1888,7 @@ QBShared.Vehicles = {
 		['model'] = 'neon',
 		['price'] = 220000,
 		['category'] = 'sports',
-		['hash'] = `neon`,
+		['hash'] = 'neon',
 		['shop'] = 'pdm',
 	},
 	['nero'] = {
@@ -1897,7 +1897,7 @@ QBShared.Vehicles = {
 		['model'] = 'nero',
 		['price'] = 200000,
 		['category'] = 'super',
-		['hash'] = `nero`,
+		['hash'] = 'nero',
 		['shop'] = 'pdm',
 	},
 	['nightblade'] = {
@@ -1906,7 +1906,7 @@ QBShared.Vehicles = {
 		['model'] = 'nightblade',
 		['price'] = 23000,
 		['category'] = 'motorcycles',
-		['hash'] = `nightblade`,
+		['hash'] = 'nightblade',
 		['shop'] = 'pdm',
 	},
 	['nightshade'] = {
@@ -1915,7 +1915,7 @@ QBShared.Vehicles = {
 		['model'] = 'nightshade',
 		['price'] = 70000,
 		['category'] = 'muscle',
-		['hash'] = `nightshade`,
+		['hash'] = 'nightshade',
 		['shop'] = 'pdm',
 	},
 	['ninef'] = {
@@ -1924,7 +1924,7 @@ QBShared.Vehicles = {
 		['model'] = 'ninef',
 		['price'] = 95000,
 		['category'] = 'sports',
-		['hash'] = `ninef`,
+		['hash'] = 'ninef',
 		['shop'] = 'pdm',
 	},
 	['ninef2'] = {
@@ -1933,7 +1933,7 @@ QBShared.Vehicles = {
 		['model'] = 'ninef2',
 		['price'] = 105000,
 		['category'] = 'sports',
-		['hash'] = `ninef2`,
+		['hash'] = 'ninef2',
 		['shop'] = 'pdm',
 	},
 	['omnis'] = {
@@ -1942,7 +1942,7 @@ QBShared.Vehicles = {
 		['model'] = 'omnis',
 		['price'] = 90000,
 		['category'] = 'sports',
-		['hash'] = `omnis`,
+		['hash'] = 'omnis',
 		['shop'] = 'pdm',
 	},
 	['oracle'] = {
@@ -1951,7 +1951,7 @@ QBShared.Vehicles = {
 		['model'] = 'oracle',
 		['price'] = 22000,
 		['category'] = 'sedans',
-		['hash'] = `oracle`,
+		['hash'] = 'oracle',
 		['shop'] = 'pdm',
 	},
 	['oracle2'] = {
@@ -1960,7 +1960,7 @@ QBShared.Vehicles = {
 		['model'] = 'oracle2',
 		['price'] = 28000,
 		['category'] = 'coupes',
-		['hash'] = `oracle2`,
+		['hash'] = 'oracle2',
 		['shop'] = 'pdm',
 	},
 	['osiris'] = {
@@ -1969,7 +1969,7 @@ QBShared.Vehicles = {
 		['model'] = 'osiris',
 		['price'] = 220000,
 		['category'] = 'super',
-		['hash'] = `osiris`,
+		['hash'] = 'osiris',
 		['shop'] = 'pdm',
 	},
 	['panto'] = {
@@ -1978,7 +1978,7 @@ QBShared.Vehicles = {
 		['model'] = 'panto',
 		['price'] = 3200,
 		['category'] = 'compacts',
-		['hash'] = `panto`,
+		['hash'] = 'panto',
 		['shop'] = 'pdm',
 	},
 	['pariah'] = {
@@ -1987,7 +1987,7 @@ QBShared.Vehicles = {
 		['model'] = 'pariah',
 		['price'] = 90000,
 		['category'] = 'sports',
-		['hash'] = `pariah`,
+		['hash'] = 'pariah',
 		['shop'] = 'pdm',
 	},
 	['patriot'] = {
@@ -1996,7 +1996,7 @@ QBShared.Vehicles = {
 		['model'] = 'patriot',
 		['price'] = 21000,
 		['category'] = 'suvs',
-		['hash'] = `patriot`,
+		['hash'] = 'patriot',
 		['shop'] = 'pdm',
 	},
 	['pcj'] = {
@@ -2005,7 +2005,7 @@ QBShared.Vehicles = {
 		['model'] = 'pcj',
 		['price'] = 15000,
 		['category'] = 'motorcycles',
-		['hash'] = `pcj`,
+		['hash'] = 'pcj',
 		['shop'] = 'pdm',
 	},
 	['penetrator'] = {
@@ -2014,7 +2014,7 @@ QBShared.Vehicles = {
 		['model'] = 'penetrator',
 		['price'] = 130000,
 		['category'] = 'super',
-		['hash'] = `penetrator`,
+		['hash'] = 'penetrator',
 		['shop'] = 'pdm',
 	},
 	['pfister811'] = {
@@ -2023,7 +2023,7 @@ QBShared.Vehicles = {
 		['model'] = 'pfister811',
 		['price'] = 220000,
 		['category'] = 'super',
-		['hash'] = `pfister811`,
+		['hash'] = 'pfister811',
 		['shop'] = 'pdm',
 	},
 	['phoenix'] = {
@@ -2032,7 +2032,7 @@ QBShared.Vehicles = {
 		['model'] = 'phoenix',
 		['price'] = 65000,
 		['category'] = 'muscle',
-		['hash'] = `phoenix`,
+		['hash'] = 'phoenix',
 		['shop'] = 'pdm',
 	},
 	['picador'] = {
@@ -2041,7 +2041,7 @@ QBShared.Vehicles = {
 		['model'] = 'picador',
 		['price'] = 20000,
 		['category'] = 'muscle',
-		['hash'] = `picador`,
+		['hash'] = 'picador',
 		['shop'] = 'pdm',
 	},
 	['pigalle'] = {
@@ -2050,7 +2050,7 @@ QBShared.Vehicles = {
 		['model'] = 'pigalle',
 		['price'] = 92000,
 		['category'] = 'sportsclassics',
-		['hash'] = `pigalle`,
+		['hash'] = 'pigalle',
 		['shop'] = 'pdm',
 	},
 	['prairie'] = {
@@ -2059,7 +2059,7 @@ QBShared.Vehicles = {
 		['model'] = 'prairie',
 		['price'] = 30000,
 		['category'] = 'compacts',
-		['hash'] = `prairie`,
+		['hash'] = 'prairie',
 		['shop'] = 'pdm',
 	},
 	['premier'] = {
@@ -2068,7 +2068,7 @@ QBShared.Vehicles = {
 		['model'] = 'premier',
 		['price'] = 12000,
 		['category'] = 'sedans',
-		['hash'] = `premier`,
+		['hash'] = 'premier',
 		['shop'] = 'pdm',
 	},
 	['primo2'] = {
@@ -2077,7 +2077,7 @@ QBShared.Vehicles = {
 		['model'] = 'primo2',
 		['price'] = 14500,
 		['category'] = 'sedans',
-		['hash'] = `primo2`,
+		['hash'] = 'primo2',
 		['shop'] = 'pdm',
 	},
 	['prototipo'] = {
@@ -2086,7 +2086,7 @@ QBShared.Vehicles = {
 		['model'] = 'prototipo',
 		['price'] = 235000,
 		['category'] = 'super',
-		['hash'] = `prototipo`,
+		['hash'] = 'prototipo',
 		['shop'] = 'pdm',
 	},
 	['radi'] = {
@@ -2095,7 +2095,7 @@ QBShared.Vehicles = {
 		['model'] = 'radi',
 		['price'] = 18000,
 		['category'] = 'suvs',
-		['hash'] = `radi`,
+		['hash'] = 'radi',
 		['shop'] = 'pdm',
 	},
 	['rapidgt'] = {
@@ -2104,7 +2104,7 @@ QBShared.Vehicles = {
 		['model'] = 'rapidgt',
 		['price'] = 86000,
 		['category'] = 'sports',
-		['hash'] = `rapidgt`,
+		['hash'] = 'rapidgt',
 		['shop'] = 'pdm',
 	},
 	['rapidgt2'] = {
@@ -2113,7 +2113,7 @@ QBShared.Vehicles = {
 		['model'] = 'rapidgt2',
 		['price'] = 92000,
 		['category'] = 'sports',
-		['hash'] = `rapidgt2`,
+		['hash'] = 'rapidgt2',
 		['shop'] = 'pdm',
 	},
 	['rapidgt3'] = {
@@ -2122,7 +2122,7 @@ QBShared.Vehicles = {
 		['model'] = 'rapidgt3',
 		['price'] = 90000,
 		['category'] = 'sportsclassics',
-		['hash'] = `rapidgt3`,
+		['hash'] = 'rapidgt3',
 		['shop'] = 'pdm',
 	},
 	['reaper'] = {
@@ -2131,7 +2131,7 @@ QBShared.Vehicles = {
 		['model'] = 'reaper',
 		['price'] = 100000,
 		['category'] = 'super',
-		['hash'] = `reaper`,
+		['hash'] = 'reaper',
 		['shop'] = 'pdm',
 	},
 	['rebel2'] = {
@@ -2140,7 +2140,7 @@ QBShared.Vehicles = {
 		['model'] = 'rebel2',
 		['price'] = 20000,
 		['category'] = 'offroad',
-		['hash'] = `rebel2`,
+		['hash'] = 'rebel2',
 		['shop'] = 'pdm',
 	},
 	['regina'] = {
@@ -2149,7 +2149,7 @@ QBShared.Vehicles = {
 		['model'] = 'regina',
 		['price'] = 7000,
 		['category'] = 'sedans',
-		['hash'] = `regina`,
+		['hash'] = 'regina',
 		['shop'] = 'pdm',
 	},
 	['revolter'] = {
@@ -2158,7 +2158,7 @@ QBShared.Vehicles = {
 		['model'] = 'revolter',
 		['price'] = 95000,
 		['category'] = 'sports',
-		['hash'] = `revolter`,
+		['hash'] = 'revolter',
 		['shop'] = 'pdm',
 	},
 	['rhapsody'] = {
@@ -2167,7 +2167,7 @@ QBShared.Vehicles = {
 		['model'] = 'rhapsody',
 		['price'] = 10000,
 		['category'] = 'compacts',
-		['hash'] = `rhapsody`,
+		['hash'] = 'rhapsody',
 		['shop'] = 'pdm',
 	},
 	['rocoto'] = {
@@ -2176,7 +2176,7 @@ QBShared.Vehicles = {
 		['model'] = 'rocoto',
 		['price'] = 13000,
 		['category'] = 'suvs',
-		['hash'] = `rocoto`,
+		['hash'] = 'rocoto',
 		['shop'] = 'pdm',
 	},
 	['ruffian'] = {
@@ -2185,7 +2185,7 @@ QBShared.Vehicles = {
 		['model'] = 'ruffian',
 		['price'] = 25000,
 		['category'] = 'motorcycles',
-		['hash'] = `ruffian`,
+		['hash'] = 'ruffian',
 		['shop'] = 'pdm',
 	},
 	['rumpo'] = {
@@ -2194,7 +2194,7 @@ QBShared.Vehicles = {
 		['model'] = 'rumpo',
 		['price'] = 9000,
 		['category'] = 'vans',
-		['hash'] = `rumpo`,
+		['hash'] = 'rumpo',
 		['shop'] = 'pdm',
 	},
 	['ruston'] = {
@@ -2203,7 +2203,7 @@ QBShared.Vehicles = {
 		['model'] = 'ruston',
 		['price'] = 130000,
 		['category'] = 'sports',
-		['hash'] = `ruston`,
+		['hash'] = 'ruston',
 		['shop'] = 'pdm',
 	},
 	['sabregt'] = {
@@ -2212,7 +2212,7 @@ QBShared.Vehicles = {
 		['model'] = 'sabregt',
 		['price'] = 23000,
 		['category'] = 'muscle',
-		['hash'] = `sabregt`,
+		['hash'] = 'sabregt',
 		['shop'] = 'pdm',
 	},
 	['sabregt2'] = {
@@ -2221,7 +2221,7 @@ QBShared.Vehicles = {
 		['model'] = 'sabregt2',
 		['price'] = 26500,
 		['category'] = 'muscle',
-		['hash'] = `sabregt2`,
+		['hash'] = 'sabregt2',
 		['shop'] = 'pdm',
 	},
 	['sandking'] = {
@@ -2230,7 +2230,7 @@ QBShared.Vehicles = {
 		['price'] = 25000,
 		['category'] = 'offroad',
 		['model'] = 'sandking',
-		['hash'] = `sandking`,
+		['hash'] = 'sandking',
 		['shop'] = 'pdm',
 	},
 	['sc1'] = {
@@ -2239,7 +2239,7 @@ QBShared.Vehicles = {
 		['model'] = 'sc1',
 		['price'] = 90000,
 		['category'] = 'super',
-		['hash'] = `sc1`,
+		['hash'] = 'sc1',
 		['shop'] = 'pdm',
 	},
 	['schafter2'] = {
@@ -2248,7 +2248,7 @@ QBShared.Vehicles = {
 		['model'] = 'schafter2',
 		['price'] = 16000,
 		['category'] = 'sedans',
-		['hash'] = `schafter2`,
+		['hash'] = 'schafter2',
 		['shop'] = 'pdm',
 	},
 	['schafter3'] = {
@@ -2257,7 +2257,7 @@ QBShared.Vehicles = {
 		['model'] = 'schafter3',
 		['price'] = 35000,
 		['category'] = 'sports',
-		['hash'] = `schafter3`,
+		['hash'] = 'schafter3',
 		['shop'] = 'pdm',
 	},
 	['seminole'] = {
@@ -2266,7 +2266,7 @@ QBShared.Vehicles = {
 		['model'] = 'seminole',
 		['price'] = 20000,
 		['category'] = 'suvs',
-		['hash'] = `seminole`,
+		['hash'] = 'seminole',
 		['shop'] = 'pdm',
 	},
 	['sentinel'] = {
@@ -2275,7 +2275,7 @@ QBShared.Vehicles = {
 		['model'] = 'sentinel',
 		['price'] = 30000,
 		['category'] = 'coupes',
-		['hash'] = `sentinel`,
+		['hash'] = 'sentinel',
 		['shop'] = 'pdm',
 	},
 	['sentinel2'] = {
@@ -2284,7 +2284,7 @@ QBShared.Vehicles = {
 		['model'] = 'sentinel2',
 		['price'] = 33000,
 		['category'] = 'coupes',
-		['hash'] = `sentinel2`,
+		['hash'] = 'sentinel2',
 		['shop'] = 'pdm',
 	},
 	['sentinel3'] = {
@@ -2293,7 +2293,7 @@ QBShared.Vehicles = {
 		['model'] = 'sentinel3',
 		['price'] = 70000,
 		['category'] = 'coupes',
-		['hash'] = `sentinel3`,
+		['hash'] = 'sentinel3',
 		['shop'] = 'pdm',
 	},
 	['seven70'] = {
@@ -2302,7 +2302,7 @@ QBShared.Vehicles = {
 		['model'] = 'seven70',
 		['price'] = 140000,
 		['category'] = 'sports',
-		['hash'] = `seven70`,
+		['hash'] = 'seven70',
 		['shop'] = 'pdm',
 	},
 	['slamvan3'] = {
@@ -2311,7 +2311,7 @@ QBShared.Vehicles = {
 		['model'] = 'slamvan3',
 		['price'] = 17000,
 		['category'] = 'muscle',
-		['hash'] = `slamvan3`,
+		['hash'] = 'slamvan3',
 		['shop'] = 'pdm',
 	},
 	['sovereign'] = {
@@ -2320,7 +2320,7 @@ QBShared.Vehicles = {
 		['model'] = 'sovereign',
 		['price'] = 8000,
 		['category'] = 'motorcycles',
-		['hash'] = `sovereign`,
+		['hash'] = 'sovereign',
 		['shop'] = 'pdm',
 	},
 	['specter'] = {
@@ -2329,7 +2329,7 @@ QBShared.Vehicles = {
 		['model'] = 'specter',
 		['price'] = 160000,
 		['category'] = 'sports',
-		['hash'] = `specter`,
+		['hash'] = 'specter',
 		['shop'] = 'pdm',
 	},
 	['stafford'] = {
@@ -2338,7 +2338,7 @@ QBShared.Vehicles = {
 		['model'] = 'stafford',
 		['price'] = 30000,
 		['category'] = 'sedans',
-		['hash'] = `stafford`,
+		['hash'] = 'stafford',
 		['shop'] = 'pdm',
 	},
 	['stalion'] = {
@@ -2347,7 +2347,7 @@ QBShared.Vehicles = {
 		['model'] = 'stalion',
 		['price'] = 33000,
 		['category'] = 'muscle',
-		['hash'] = `stalion`,
+		['hash'] = 'stalion',
 		['shop'] = 'pdm',
 	},
 	['stingergt'] = {
@@ -2356,7 +2356,7 @@ QBShared.Vehicles = {
 		['model'] = 'stingergt',
 		['price'] = 70000,
 		['category'] = 'sportsclassics',
-		['hash'] = `stingergt`,
+		['hash'] = 'stingergt',
 		['shop'] = 'pdm',
 	},
 	['streiter'] = {
@@ -2365,7 +2365,7 @@ QBShared.Vehicles = {
 		['model'] = 'streiter',
 		['price'] = 40000,
 		['category'] = 'sports',
-		['hash'] = `streiter`,
+		['hash'] = 'streiter',
 		['shop'] = 'pdm',
 	},
 	['sultan'] = {
@@ -2374,7 +2374,7 @@ QBShared.Vehicles = {
 		['model'] = 'sultan',
 		['price'] = 50000,
 		['category'] = 'sports',
-		['hash'] = `sultan`,
+		['hash'] = 'sultan',
 		['shop'] = 'pdm',
 	},
 	['sultanrs'] = {
@@ -2383,7 +2383,7 @@ QBShared.Vehicles = {
 		['model'] = 'sultanrs',
 		['price'] = 76500,
 		['category'] = 'sports',
-		['hash'] = `sultanrs`,
+		['hash'] = 'sultanrs',
 		['shop'] = 'pdm',
 	},
 	['superd'] = {
@@ -2392,7 +2392,7 @@ QBShared.Vehicles = {
 		['model'] = 'superd',
 		['price'] = 17000,
 		['category'] = 'sedans',
-		['hash'] = `superd`,
+		['hash'] = 'superd',
 		['shop'] = 'pdm',
 	},
 	['surano'] = {
@@ -2401,7 +2401,7 @@ QBShared.Vehicles = {
 		['model'] = 'surano',
 		['price'] = 80000,
 		['category'] = 'sports',
-		['hash'] = `surano`,
+		['hash'] = 'surano',
 		['shop'] = 'pdm',
 	},
 	['surge'] = {
@@ -2410,7 +2410,7 @@ QBShared.Vehicles = {
 		['model'] = 'surge',
 		['price'] = 20000,
 		['category'] = 'sedans',
-		['hash'] = `surge`,
+		['hash'] = 'surge',
 		['shop'] = 'pdm',
 	},
 	['t20'] = {
@@ -2419,7 +2419,7 @@ QBShared.Vehicles = {
 		['model'] = 't20',
 		['price'] = 1650000,
 		['category'] = 'super',
-		['hash'] = `t20`,
+		['hash'] = 't20',
 		['shop'] = 'pdm',
 	},
 	['tailgater'] = {
@@ -2428,7 +2428,7 @@ QBShared.Vehicles = {
 		['model'] = 'tailgater',
 		['price'] = 22000,
 		['category'] = 'sedans',
-		['hash'] = `tailgater`,
+		['hash'] = 'tailgater',
 		['shop'] = 'pdm',
 	},
 	['taipan'] = {
@@ -2437,7 +2437,7 @@ QBShared.Vehicles = {
 		['model'] = 'taipan',
 		['price'] = 1850000,
 		['category'] = 'super',
-		['hash'] = `taipan`,
+		['hash'] = 'taipan',
 		['shop'] = 'pdm',
 	},
 	['tampa'] = {
@@ -2446,7 +2446,7 @@ QBShared.Vehicles = {
 		['model'] = 'tampa',
 		['price'] = 24500,
 		['category'] = 'muscle',
-		['hash'] = `tampa`,
+		['hash'] = 'tampa',
 		['shop'] = 'pdm',
 	},
 	['tampa2'] = {
@@ -2455,7 +2455,7 @@ QBShared.Vehicles = {
 		['model'] = 'tampa2',
 		['price'] = 80000,
 		['category'] = 'muscle',
-		['hash'] = `tampa2`,
+		['hash'] = 'tampa2',
 		['shop'] = 'pdm',
 	},
 	['tempesta'] = {
@@ -2464,7 +2464,7 @@ QBShared.Vehicles = {
 		['model'] = 'tempesta',
 		['price'] = 120000,
 		['category'] = 'super',
-		['hash'] = `tempesta`,
+		['hash'] = 'tempesta',
 		['shop'] = 'pdm',
 	},
 	['tezeract'] = {
@@ -2473,7 +2473,7 @@ QBShared.Vehicles = {
 		['model'] = 'tezeract',
 		['price'] = 220000,
 		['category'] = 'super',
-		['hash'] = `tezeract`,
+		['hash'] = 'tezeract',
 		['shop'] = 'pdm',
 	},
 	['thrust'] = {
@@ -2482,7 +2482,7 @@ QBShared.Vehicles = {
 		['model'] = 'thrust',
 		['price'] = 22000,
 		['category'] = 'motorcycles',
-		['hash'] = `thrust`,
+		['hash'] = 'thrust',
 		['shop'] = 'pdm',
 	},
 	['torero'] = {
@@ -2491,7 +2491,7 @@ QBShared.Vehicles = {
 		['model'] = 'torero',
 		['price'] = 84000,
 		['category'] = 'sportsclassics',
-		['hash'] = `torero`,
+		['hash'] = 'torero',
 		['shop'] = 'pdm',
 	},
 	['trophytruck'] = {
@@ -2500,7 +2500,7 @@ QBShared.Vehicles = {
 		['price'] = 60000,
 		['category'] = 'offroad',
 		['model'] = 'trophytruck',
-		['hash'] = `trophytruck`,
+		['hash'] = 'trophytruck',
 		['shop'] = 'pdm',
 	},
 	['trophytruck2'] = {
@@ -2509,7 +2509,7 @@ QBShared.Vehicles = {
 		['price'] = 80000,
 		['category'] = 'offroad',
 		['model'] = 'trophytruck2',
-		['hash'] = `trophytruck2`,
+		['hash'] = 'trophytruck2',
 		['shop'] = 'pdm',
 	},
 	['turismor'] = {
@@ -2518,7 +2518,7 @@ QBShared.Vehicles = {
 		['model'] = 'turismor',
 		['price'] = 140000,
 		['category'] = 'super',
-		['hash'] = `turismor`,
+		['hash'] = 'turismor',
 		['shop'] = 'pdm',
 	},
 	['tyrant'] = {
@@ -2527,7 +2527,7 @@ QBShared.Vehicles = {
 		['model'] = 'tyrant',
 		['price'] = 2100000,
 		['category'] = 'super',
-		['hash'] = `tyrant`,
+		['hash'] = 'tyrant',
 		['shop'] = 'pdm',
 	},
 	['vacca'] = {
@@ -2536,7 +2536,7 @@ QBShared.Vehicles = {
 		['model'] = 'vacca',
 		['price'] = 105000,
 		['category'] = 'super',
-		['hash'] = `vacca`,
+		['hash'] = 'vacca',
 		['shop'] = 'pdm',
 	},
 	['vagner'] = {
@@ -2545,7 +2545,7 @@ QBShared.Vehicles = {
 		['model'] = 'vagner',
 		['price'] = 1660000,
 		['category'] = 'super',
-		['hash'] = `vagner`,
+		['hash'] = 'vagner',
 		['shop'] = 'pdm',
 	},
 	['verlierer2'] = {
@@ -2554,7 +2554,7 @@ QBShared.Vehicles = {
 		['model'] = 'verlierer2',
 		['price'] = 90500,
 		['category'] = 'sports',
-		['hash'] = `verlierer2`,
+		['hash'] = 'verlierer2',
 		['shop'] = 'pdm',
 	},
 	['vigero'] = {
@@ -2563,7 +2563,7 @@ QBShared.Vehicles = {
 		['model'] = 'vigero',
 		['price'] = 39500,
 		['category'] = 'muscle',
-		['hash'] = `vigero`,
+		['hash'] = 'vigero',
 		['shop'] = 'pdm',
 	},
 	['virgo'] = {
@@ -2572,7 +2572,7 @@ QBShared.Vehicles = {
 		['model'] = 'virgo',
 		['price'] = 22000,
 		['category'] = 'muscle',
-		['hash'] = `virgo`,
+		['hash'] = 'virgo',
 		['shop'] = 'pdm',
 	},
 	['visione'] = {
@@ -2581,7 +2581,7 @@ QBShared.Vehicles = {
 		['model'] = 'visione',
 		['price'] = 750000,
 		['category'] = 'sports',
-		['hash'] = `visione`,
+		['hash'] = 'visione',
 		['shop'] = 'pdm',
 	},
 	['voltic'] = {
@@ -2590,7 +2590,7 @@ QBShared.Vehicles = {
 		['model'] = 'voltic',
 		['price'] = 120000,
 		['category'] = 'super',
-		['hash'] = `voltic`,
+		['hash'] = 'voltic',
 		['shop'] = 'pdm',
 	},
 	['voodoo'] = {
@@ -2599,7 +2599,7 @@ QBShared.Vehicles = {
 		['model'] = 'voodoo',
 		['price'] = 13000,
 		['category'] = 'muscle',
-		['hash'] = `voodoo`,
+		['hash'] = 'voodoo',
 		['shop'] = 'pdm',
 	},
 	['washington'] = {
@@ -2608,7 +2608,7 @@ QBShared.Vehicles = {
 		['model'] = 'washington',
 		['price'] = 7000,
 		['category'] = 'sedans',
-		['hash'] = `washington`,
+		['hash'] = 'washington',
 		['shop'] = 'pdm',
 	},
 	['windsor'] = {
@@ -2617,7 +2617,7 @@ QBShared.Vehicles = {
 		['model'] = 'windsor',
 		['price'] = 27000,
 		['category'] = 'coupes',
-		['hash'] = `windsor`,
+		['hash'] = 'windsor',
 		['shop'] = 'pdm',
 	},
 	['windsor2'] = {
@@ -2626,7 +2626,7 @@ QBShared.Vehicles = {
 		['model'] = 'windsor2',
 		['price'] = 34000,
 		['category'] = 'coupes',
-		['hash'] = `windsor2`,
+		['hash'] = 'windsor2',
 		['shop'] = 'pdm',
 	},
 	['xa21'] = {
@@ -2635,7 +2635,7 @@ QBShared.Vehicles = {
 		['model'] = 'xa21',
 		['price'] = 180000,
 		['category'] = 'super',
-		['hash'] = `xa21`,
+		['hash'] = 'xa21',
 		['shop'] = 'pdm',
 	},
 	['xls'] = {
@@ -2644,7 +2644,7 @@ QBShared.Vehicles = {
 		['model'] = 'xls',
 		['price'] = 17000,
 		['category'] = 'suvs',
-		['hash'] = `xls`,
+		['hash'] = 'xls',
 		['shop'] = 'pdm',
 	},
 	['yosemite'] = {
@@ -2653,7 +2653,7 @@ QBShared.Vehicles = {
 		['model'] = 'yosemite',
 		['price'] = 19500,
 		['category'] = 'muscle',
-		['hash'] = `yosemite`,
+		['hash'] = 'yosemite',
 		['shop'] = 'pdm',
 	},
 	['z190'] = {
@@ -2662,7 +2662,7 @@ QBShared.Vehicles = {
 		['model'] = 'z190',
 		['price'] = 78000,
 		['category'] = 'sportsclassics',
-		['hash'] = `z190`,
+		['hash'] = 'z190',
 		['shop'] = 'pdm',
 	},
 	['zentorno'] = {
@@ -2671,7 +2671,7 @@ QBShared.Vehicles = {
 		['model'] = 'zentorno',
 		['price'] = 340000,
 		['category'] = 'super',
-		['hash'] = `zentorno`,
+		['hash'] = 'zentorno',
 		['shop'] = 'pdm',
 	},
 	['zion'] = {
@@ -2680,7 +2680,7 @@ QBShared.Vehicles = {
 		['model'] = 'zion',
 		['price'] = 22000,
 		['category'] = 'coupes',
-		['hash'] = `zion`,
+		['hash'] = 'zion',
 		['shop'] = 'pdm',
 	},
 	['zion2'] = {
@@ -2689,7 +2689,7 @@ QBShared.Vehicles = {
 		['model'] = 'zion2',
 		['price'] = 28000,
 		['category'] = 'coupes',
-		['hash'] = `zion2`,
+		['hash'] = 'zion2',
 		['shop'] = 'pdm',
 	},
 	['zombieb'] = {
@@ -2698,7 +2698,7 @@ QBShared.Vehicles = {
 		['model'] = 'zombieb',
 		['price'] = 27000,
 		['category'] = 'motorcycles',
-		['hash'] = `zombieb`,
+		['hash'] = 'zombieb',
 		['shop'] = 'pdm',
 	},
 	['ztype'] = {
@@ -2707,7 +2707,7 @@ QBShared.Vehicles = {
 		['model'] = 'ztype',
 		['price'] = 270000,
 		['category'] = 'sportsclassics',
-		['hash'] = `ztype`,
+		['hash'] = 'ztype',
 		['shop'] = 'pdm',
 	},
 ----------MUST BE ENABLED FOR THE BELOW VEHICLES-------------+set sv_enforceGameBuild 2189-------------------------------
@@ -2724,7 +2724,7 @@ QBShared.Vehicles = {
 		['model'] = 'akuma',
 		['price'] = 55000,
 		['category'] = 'motorcycles',
-		['hash'] = `akuma`,
+		['hash'] = 'akuma',
 		['shop'] = 'pdm',
 	},
 	['asbo'] = {
@@ -2733,7 +2733,7 @@ QBShared.Vehicles = {
 		['model'] = 'asbo',
 		['price'] = 4000,
 		['category'] = 'compacts',
-		['hash'] = `asbo`,
+		['hash'] = 'asbo',
 		['shop'] = 'pdm',
 	},
 	['asterope'] = {
@@ -2742,7 +2742,7 @@ QBShared.Vehicles = {
 		['model'] = 'asterope',
 		['price'] = 11000,
 		['category'] = 'sedans',
-		['hash'] = `asterope`,
+		['hash'] = 'asterope',
 		['shop'] = 'pdm',
 	},
 	['baller'] = {
@@ -2751,7 +2751,7 @@ QBShared.Vehicles = {
 		['model'] = 'baller',
 		['price'] = 22000,
 		['category'] = 'suvs',
-		['hash'] = `baller`,
+		['hash'] = 'baller',
 		['shop'] = 'pdm',
 	},
 	['baller4'] = {
@@ -2760,7 +2760,7 @@ QBShared.Vehicles = {
 		['model'] = 'baller4',
 		['price'] = 29000,
 		['category'] = 'suvs',
-		['hash'] = `baller4`,
+		['hash'] = 'baller4',
 		['shop'] = 'pdm',
 	},
 	['baller5'] = {
@@ -2769,7 +2769,7 @@ QBShared.Vehicles = {
 		['model'] = 'baller5',
 		['price'] = 78000,
 		['category'] = 'suvs',
-		['hash'] = `baller5`,
+		['hash'] = 'baller5',
 		['shop'] = 'pdm',
 	},
 	['baller6'] = {
@@ -2778,7 +2778,7 @@ QBShared.Vehicles = {
 		['model'] = 'baller6',
 		['price'] = 82000,
 		['category'] = 'suvs',
-		['hash'] = `baller6`,
+		['hash'] = 'baller6',
 		['shop'] = 'pdm',
 	},
 	['bati2'] = {
@@ -2787,7 +2787,7 @@ QBShared.Vehicles = {
 		['model'] = 'bati2',
 		['price'] = 19000,
 		['category'] = 'motorcycles',
-		['hash'] = `bati2`,
+		['hash'] = 'bati2',
 		['shop'] = 'pdm',
 	},
 	['bf400'] = {
@@ -2796,7 +2796,7 @@ QBShared.Vehicles = {
 		['model'] = 'bf400',
 		['price'] = 22000,
 		['category'] = 'motorcycles',
-		['hash'] = `bf400`,
+		['hash'] = 'bf400',
 		['shop'] = 'pdm',
 	},
 	['blazer2'] = {
@@ -2805,7 +2805,7 @@ QBShared.Vehicles = {
 		['model'] = 'blazer2',
 		['price'] = 7000,
 		['category'] = 'offroad',
-		['hash'] = `blazer2`,
+		['hash'] = 'blazer2',
 		['shop'] = 'pdm',
 	},
 	['blazer3'] = {
@@ -2814,7 +2814,7 @@ QBShared.Vehicles = {
 		['model'] = 'blazer3',
 		['price'] = 7000,
 		['category'] = 'offroad',
-		['hash'] = `blazer3`,
+		['hash'] = 'blazer3',
 		['shop'] = 'pdm',
 	},
 	['blazer5'] = {
@@ -2823,7 +2823,7 @@ QBShared.Vehicles = {
 		['model'] = 'blazer5',
 		['price'] = 40000,
 		['category'] = 'offroad',
-		['hash'] = `blazer5`,
+		['hash'] = 'blazer5',
 		['shop'] = 'pdm',
 	},
 	['blista3'] = {
@@ -2832,7 +2832,7 @@ QBShared.Vehicles = {
 		['model'] = 'blista3',
 		['price'] = 15000,
 		['category'] = 'compacts',
-		['hash'] = `blista3`,
+		['hash'] = 'blista3',
 		['shop'] = 'pdm',
 	},
 	['bmx'] = {
@@ -2840,7 +2840,7 @@ QBShared.Vehicles = {
 		['model'] = 'bmx',
 		['price'] = 160,
 		['category'] = 'cycles',
-		['hash'] = `bmx`,
+		['hash'] = 'bmx',
 		['shop'] = 'pdm',
 	},
 	['brioso2'] = {
@@ -2849,7 +2849,7 @@ QBShared.Vehicles = {
 		['model'] = 'brioso2',
 		['price'] = 12000,
 		['category'] = 'compacts',
-		['hash'] = `brioso2`,
+		['hash'] = 'brioso2',
 		['shop'] = 'pdm',
 	},
 	['caracara'] = {
@@ -2858,7 +2858,7 @@ QBShared.Vehicles = {
 		['model'] = 'caracara',
 		['price'] = 60000,
 		['category'] = 'offroad',
-		['hash'] = `caracara`,
+		['hash'] = 'caracara',
 		['shop'] = 'pdm',
 	},
 	['caracara2'] = {
@@ -2867,7 +2867,7 @@ QBShared.Vehicles = {
 		['model'] = 'caracara2',
 		['price'] = 80000,
 		['category'] = 'offroad',
-		['hash'] = `caracara2`,
+		['hash'] = 'caracara2',
 		['shop'] = 'pdm',
 	},
 	['cavalcade'] = {
@@ -2876,7 +2876,7 @@ QBShared.Vehicles = {
 		['model'] = 'cavalcade',
 		['price'] = 14000,
 		['category'] = 'suvs',
-		['hash'] = `cavalcade`,
+		['hash'] = 'cavalcade',
 		['shop'] = 'pdm',
 	},
 	['cheburek'] = {
@@ -2885,7 +2885,7 @@ QBShared.Vehicles = {
 		['model'] = 'cheburek',
 		['price'] = 7000,
 		['category'] = 'sportsclassic',
-		['hash'] = `cheburek`,
+		['hash'] = 'cheburek',
 		['shop'] = 'pdm',
 	},
 	['cliffhanger'] = {
@@ -2894,7 +2894,7 @@ QBShared.Vehicles = {
 		['model'] = 'cliffhanger',
 		['price'] = 28500,
 		['category'] = 'motorcycles',
-		['hash'] = `cliffhanger`,
+		['hash'] = 'cliffhanger',
 		['shop'] = 'pdm',
 	},
 	['clique'] = {
@@ -2903,7 +2903,7 @@ QBShared.Vehicles = {
 		['model'] = 'clique',
 		['price'] = 20000,
 		['category'] = 'muscle',
-		['hash'] = `clique`,
+		['hash'] = 'clique',
 		['shop'] = 'pdm',
 	},
 	['club'] = {
@@ -2912,7 +2912,7 @@ QBShared.Vehicles = {
 		['model'] = 'club',
 		['price'] = 8000,
 		['category'] = 'compacts',
-		['hash'] = `club`,
+		['hash'] = 'club',
 		['shop'] = 'pdm',
 	},
 	['cog55'] = {
@@ -2921,7 +2921,7 @@ QBShared.Vehicles = {
 		['model'] = 'cog55',
 		['price'] = 22000,
 		['category'] = 'sedans',
-		['hash'] = `cog55`,
+		['hash'] = 'cog55',
 		['shop'] = 'pdm',
 	},
 	['comet4'] = {
@@ -2930,7 +2930,7 @@ QBShared.Vehicles = {
 		['model'] = 'comet4',
 		['price'] = 110000,
 		['category'] = 'sports',
-		['hash'] = `comet4`,
+		['hash'] = 'comet4',
 		['shop'] = 'pdm',
 	},
 	['contender'] = {
@@ -2939,7 +2939,7 @@ QBShared.Vehicles = {
 		['model'] = 'contender',
 		['price'] = 35000,
 		['category'] = 'suvs',
-		['hash'] = `contender`,
+		['hash'] = 'contender',
 		['shop'] = 'pdm',
 	},
 	['coquette4'] = {
@@ -2948,7 +2948,7 @@ QBShared.Vehicles = {
 		['model'] = 'coquette4',
 		['price'] = 220000,
 		['category'] = 'sports',
-		['hash'] = `coquette4`,
+		['hash'] = 'coquette4',
 		['shop'] = 'pdm',
 	},
 	['cruiser'] = {
@@ -2956,7 +2956,7 @@ QBShared.Vehicles = {
 		['model'] = 'cruiser',
 		['price'] = 510,
 		['category'] = 'cycles',
-		['hash'] = `cruiser`,
+		['hash'] = 'cruiser',
 		['shop'] = 'pdm',
 	},
 	['daemon2'] = {
@@ -2965,7 +2965,7 @@ QBShared.Vehicles = {
 		['model'] = 'daemon2',
 		['price'] = 23000,
 		['category'] = 'motorcycles',
-		['hash'] = `daemon2`,
+		['hash'] = 'daemon2',
 		['shop'] = 'pdm',
 	},
 	['deluxo'] = {
@@ -2974,7 +2974,7 @@ QBShared.Vehicles = {
 		['model'] = 'deluxo',
 		['price'] = 55000,
 		['category'] = 'sportsclassic',
-		['hash'] = `deluxo`,
+		['hash'] = 'deluxo',
 		['shop'] = 'pdm',
 	},
 	['deveste'] = {
@@ -2983,7 +2983,7 @@ QBShared.Vehicles = {
 		['model'] = 'deveste',
 		['price'] = 234000,
 		['category'] = 'super',
-		['hash'] = `deveste`,
+		['hash'] = 'deveste',
 		['shop'] = 'pdm',
 	},
 	['deviant'] = {
@@ -2992,7 +2992,7 @@ QBShared.Vehicles = {
 		['model'] = 'deviant',
 		['price'] = 70000,
 		['category'] = 'muscle',
-		['hash'] = `deviant`,
+		['hash'] = 'deviant',
 		['shop'] = 'pdm',
 	},
 	['diablous'] = {
@@ -3001,7 +3001,7 @@ QBShared.Vehicles = {
 		['model'] = 'diablous',
 		['price'] = 30000,
 		['category'] = 'motorcycles',
-		['hash'] = `diablous`,
+		['hash'] = 'diablous',
 		['shop'] = 'pdm',
 	},
 	['diablous2'] = {
@@ -3010,7 +3010,7 @@ QBShared.Vehicles = {
 		['model'] = 'diablous2',
 		['price'] = 38000,
 		['category'] = 'motorcycles',
-		['hash'] = `diablous2`,
+		['hash'] = 'diablous2',
 		['shop'] = 'pdm',
 	},
 	['dilettante2'] = {
@@ -3019,7 +3019,7 @@ QBShared.Vehicles = {
 		['model'] = 'dilettante2',
 		['price'] = 12000,
 		['category'] = 'compacts',
-		['hash'] = `dilettante2`,
+		['hash'] = 'dilettante2',
 		['shop'] = 'pdm',
 	},
 	['dominator2'] = {
@@ -3028,7 +3028,7 @@ QBShared.Vehicles = {
 		['model'] = 'dominator2',
 		['price'] = 50000,
 		['category'] = 'muscle',
-		['hash'] = `dominator2`,
+		['hash'] = 'dominator2',
 		['shop'] = 'pdm',
 	},
 	['dominator3'] = {
@@ -3037,7 +3037,7 @@ QBShared.Vehicles = {
 		['model'] = 'dominator3',
 		['price'] = 70000,
 		['category'] = 'muscle',
-		['hash'] = `dominator3`,
+		['hash'] = 'dominator3',
 		['shop'] = 'pdm',
 	},
 	['dominator4'] = {
@@ -3046,7 +3046,7 @@ QBShared.Vehicles = {
 		['model'] = 'dominator4',
 		['price'] = 200000,
 		['category'] = 'muscle',
-		['hash'] = `dominator4`,
+		['hash'] = 'dominator4',
 		['shop'] = 'pdm',
 	},
 	['double'] = {
@@ -3055,7 +3055,7 @@ QBShared.Vehicles = {
 		['model'] = 'double',
 		['price'] = 28000,
 		['category'] = 'motorcycles',
-		['hash'] = `double`,
+		['hash'] = 'double',
 		['shop'] = 'pdm',
 	},
 	['drafter'] = {     
@@ -3064,7 +3064,7 @@ QBShared.Vehicles = {
 		['model'] = 'drafter',
 		['price'] = 80000,
 		['category'] = 'sports',
-		['hash'] = `drafter`,
+		['hash'] = 'drafter',
 		['shop'] = 'pdm',
 	},
 	['dubsta'] = {
@@ -3073,7 +3073,7 @@ QBShared.Vehicles = {
 		['model'] = 'dubsta',
 		['price'] = 19000,
 		['category'] = 'suvs',
-		['hash'] = `dubsta`,
+		['hash'] = 'dubsta',
 		['shop'] = 'pdm',
 	},
 	['dukes2'] = {
@@ -3082,7 +3082,7 @@ QBShared.Vehicles = {
 		['model'] = 'dukes2',
 		['price'] = 60000,
 		['category'] = 'muscle',
-		['hash'] = `dukes2`,
+		['hash'] = 'dukes2',
 		['shop'] = 'pdm',
 	},
 	['dukes3'] = {
@@ -3091,7 +3091,7 @@ QBShared.Vehicles = {
 		['model'] = 'dukes3',
 		['price'] = 45000,
 		['category'] = 'muscle',
-		['hash'] = `dukes3`,
+		['hash'] = 'dukes3',
 		['shop'] = 'pdm',
 	},
 	['dynasty'] = {
@@ -3100,7 +3100,7 @@ QBShared.Vehicles = {
 		['model'] = 'dynasty',
 		['price'] = 25000,
 		['category'] = 'sportsclassic',
-		['hash'] = `dynasty`,
+		['hash'] = 'dynasty',
 		['shop'] = 'pdm',
 	},
 	['emerus'] = {
@@ -3109,7 +3109,7 @@ QBShared.Vehicles = {
 		['model'] = 'emerus',
 		['price'] = 220000,
 		['category'] = 'super',
-		['hash'] = `emerus`,
+		['hash'] = 'emerus',
 		['shop'] = 'pdm',
 	},
 	['enduro'] = {
@@ -3118,7 +3118,7 @@ QBShared.Vehicles = {
 		['model'] = 'enduro',
 		['price'] = 5500,
 		['category'] = 'motorcycles',
-		['hash'] = `enduro`,
+		['hash'] = 'enduro',
 		['shop'] = 'pdm',
 	},
 	['everon'] = {
@@ -3127,7 +3127,7 @@ QBShared.Vehicles = {
 		['model'] = 'everon',
 		['price'] = 60000,
 		['category'] = 'offroad',
-		['hash'] = `everon`,
+		['hash'] = 'everon',
 		['shop'] = 'pdm',
 	},
 	['faction3'] = {
@@ -3136,7 +3136,7 @@ QBShared.Vehicles = {
 		['model'] = 'faction3',
 		['price'] = 35000,
 		['category'] = 'muscle',
-		['hash'] = `faction3`,
+		['hash'] = 'faction3',
 		['shop'] = 'pdm',
 	},
 	['faggio2'] = {
@@ -3145,7 +3145,7 @@ QBShared.Vehicles = {
 		['model'] = 'faggio2',
 		['price'] = 1900,
 		['category'] = 'motorcycles',
-		['hash'] = `faggio2`,
+		['hash'] = 'faggio2',
 		['shop'] = 'pdm',
 	},
 	['fcr'] = {
@@ -3154,7 +3154,7 @@ QBShared.Vehicles = {
 		['model'] = 'fcr',
 		['price'] = 5000,
 		['category'] = 'motorcycles',
-		['hash'] = `fcr`,
+		['hash'] = 'fcr',
 		['shop'] = 'pdm',
 	},
 	['fcr2'] = {
@@ -3163,7 +3163,7 @@ QBShared.Vehicles = {
 		['model'] = 'fcr2',
 		['price'] = 19000,
 		['category'] = 'motorcycles',
-		['hash'] = `fcr2`,
+		['hash'] = 'fcr2',
 		['shop'] = 'pdm',
 	},
 	['fixter'] = {
@@ -3171,7 +3171,7 @@ QBShared.Vehicles = {
 		['model'] = 'fixter',
 		['price'] = 225,
 		['category'] = 'cycles',
-		['hash'] = `fixter`,
+		['hash'] = 'fixter',
 		['shop'] = 'pdm',
 	},
 	['freecrawler'] = {
@@ -3180,7 +3180,7 @@ QBShared.Vehicles = {
 		['model'] = 'freecrawler',
 		['price'] = 24000,
 		['category'] = 'offroad',
-		['hash'] = `freecrawler`,
+		['hash'] = 'freecrawler',
 		['shop'] = 'pdm',
 	},
 	['furia'] = {
@@ -3189,7 +3189,7 @@ QBShared.Vehicles = {
 		['model'] = 'furia',
 		['price'] = 230000,
 		['category'] = 'super',
-		['hash'] = `furia`,
+		['hash'] = 'furia',
 		['shop'] = 'pdm',
 	},
 	['gargoyle'] = {
@@ -3198,7 +3198,7 @@ QBShared.Vehicles = {
 		['model'] = 'gargoyle',
 		['price'] = 32000,
 		['category'] = 'motorcycles',
-		['hash'] = `gargoyle`,
+		['hash'] = 'gargoyle',
 		['shop'] = 'pdm',
 	},
 	['gauntlet2'] = {
@@ -3207,7 +3207,7 @@ QBShared.Vehicles = {
 		['model'] = 'gauntlet2',
 		['price'] = 70000,
 		['category'] = 'muscle',
-		['hash'] = `gauntlet2`,
+		['hash'] = 'gauntlet2',
 		['shop'] = 'pdm',
 	},
 	['gauntlet3'] = {
@@ -3216,7 +3216,7 @@ QBShared.Vehicles = {
 		['model'] = 'gauntlet3',
 		['price'] = 75000,
 		['category'] = 'muscle',
-		['hash'] = `gauntlet3`,
+		['hash'] = 'gauntlet3',
 		['shop'] = 'pdm',
 	},
 	['gauntlet4'] = {
@@ -3225,7 +3225,7 @@ QBShared.Vehicles = {
 		['model'] = 'gauntlet4',
 		['price'] = 80000,
 		['category'] = 'muscle',
-		['hash'] = `gauntlet4`,
+		['hash'] = 'gauntlet4',
 		['shop'] = 'pdm',
 	},
 	['gauntlet5'] = {
@@ -3234,7 +3234,7 @@ QBShared.Vehicles = {
 		['model'] = 'gauntlet5',
 		['price'] = 120000,
 		['category'] = 'muscle',
-		['hash'] = `gauntlet5`,
+		['hash'] = 'gauntlet5',
 		['shop'] = 'pdm',
 	},
 	['gb200'] = {
@@ -3243,7 +3243,7 @@ QBShared.Vehicles = {
 		['model'] = 'gb200',
 		['price'] = 140000,
 		['category'] = 'sports',
-		['hash'] = `gb200`,
+		['hash'] = 'gb200',
 		['shop'] = 'pdm',
 	},
 	['glendale2'] = {
@@ -3252,7 +3252,7 @@ QBShared.Vehicles = {
 		['model'] = 'glendale2',
 		['price'] = 12000,
 		['category'] = 'sedans',
-		['hash'] = `glendale2`,
+		['hash'] = 'glendale2',
 		['shop'] = 'pdm',
 	},
 	['habanero'] = {
@@ -3261,7 +3261,7 @@ QBShared.Vehicles = {
 		['model'] = 'habanero',
 		['price'] = 20000,
 		['category'] = 'suvs',
-		['hash'] = `habanero`,
+		['hash'] = 'habanero',
 		['shop'] = 'pdm',
 	},
 	['hakuchou2'] = {
@@ -3270,7 +3270,7 @@ QBShared.Vehicles = {
 		['model'] = 'hakuchou2',
 		['price'] = 45000,
 		['category'] = 'motorcycles',
-		['hash'] = `hakuchou2`,
+		['hash'] = 'hakuchou2',
 		['shop'] = 'pdm',
 	},
 	['hellion'] = {
@@ -3279,7 +3279,7 @@ QBShared.Vehicles = {
 		['model'] = 'hellion',
 		['price'] = 38000,
 		['category'] = 'offroad',
-		['hash'] = `hellion`,
+		['hash'] = 'hellion',
 		['shop'] = 'pdm',
 	},
 	['hermes'] = {
@@ -3288,7 +3288,7 @@ QBShared.Vehicles = {
 		['model'] = 'hermes',
 		['price'] = 535000,
 		['category'] = 'muscle',
-		['hash'] = `hermes`,
+		['hash'] = 'hermes',
 		['shop'] = 'pdm',
 	},
 	['imorgon'] = {
@@ -3297,7 +3297,7 @@ QBShared.Vehicles = {
 		['model'] = 'imorgon',
 		['price'] = 120000,
 		['category'] = 'sports',
-		['hash'] = `imorgon`,
+		['hash'] = 'imorgon',
 		['shop'] = 'pdm',
 	},
 	['ingot'] = {
@@ -3306,7 +3306,7 @@ QBShared.Vehicles = {
 		['model'] = 'ingot',
 		['price'] = 4999,
 		['category'] = 'sedans',
-		['hash'] = `ingot`,
+		['hash'] = 'ingot',
 		['shop'] = 'pdm',
 	},
 	['innovation'] = {
@@ -3315,7 +3315,7 @@ QBShared.Vehicles = {
 		['model'] = 'innovation',
 		['price'] = 33500,
 		['category'] = 'motorcycles',
-		['hash'] = `innovation`,
+		['hash'] = 'innovation',
 		['shop'] = 'pdm',
 	},
 	['issi4'] = {
@@ -3324,7 +3324,7 @@ QBShared.Vehicles = {
 		['model'] = 'issi4',
 		['price'] = 80000,
 		['category'] = 'compacts',
-		['hash'] = `issi4`,
+		['hash'] = 'issi4',
 		['shop'] = 'pdm',
 	},
 	['issi7'] = {
@@ -3333,7 +3333,7 @@ QBShared.Vehicles = {
 		['model'] = 'issi7',
 		['price'] = 100000,
 		['category'] = 'compacts',
-		['hash'] = `issi7`,
+		['hash'] = 'issi7',
 		['shop'] = 'pdm',
 	},
 	['italigtb2'] = {
@@ -3342,7 +3342,7 @@ QBShared.Vehicles = {
 		['model'] = 'italigtb2',
 		['price'] = 250000,
 		['category'] = 'super',
-		['hash'] = `italigtb2`,
+		['hash'] = 'italigtb2',
 		['shop'] = 'pdm',
 	},
 	['italigto'] = {
@@ -3351,7 +3351,7 @@ QBShared.Vehicles = {
 		['model'] = 'italigto',
 		['price'] = 260000,
 		['category'] = 'sports',
-		['hash'] = `italigto`,
+		['hash'] = 'italigto',
 		['shop'] = 'pdm',
 	},
 	['italirsx'] = {
@@ -3360,7 +3360,7 @@ QBShared.Vehicles = {
 		['model'] = 'italirsx',
 		['price'] = 260000,
 		['category'] = 'sports',
-		['hash'] = `italirsx`,
+		['hash'] = 'italirsx',
 		['shop'] = 'pdm',
 	},
 	['jb700'] = {
@@ -3369,7 +3369,7 @@ QBShared.Vehicles = {
 		['model'] = 'jb700',
 		['price'] = 240000,
 		['category'] = 'sportsclassic',
-		['hash'] = `jb700`,
+		['hash'] = 'jb700',
 		['shop'] = 'pdm',
 	},
 	['jb7002'] = {
@@ -3378,7 +3378,7 @@ QBShared.Vehicles = {
 		['model'] = 'jb7002',
 		['price'] = 40000,
 		['category'] = 'sportsclassic',
-		['hash'] = `jb7002`,
+		['hash'] = 'jb7002',
 		['shop'] = 'pdm',
 	},
 	['jester2'] = {
@@ -3387,7 +3387,7 @@ QBShared.Vehicles = {
 		['model'] = 'jester2',
 		['price'] = 210000,
 		['category'] = 'sports',
-		['hash'] = `jester2`,
+		['hash'] = 'jester2',
 		['shop'] = 'pdm',
 	},
 	['journey'] = {
@@ -3396,7 +3396,7 @@ QBShared.Vehicles = {
 		['model'] = 'journey',
 		['price'] = 6500,
 		['category'] = 'vans',
-		['hash'] = `journey`,
+		['hash'] = 'journey',
 		['shop'] = 'pdm',
 	},
 	['jugular'] = {
@@ -3405,7 +3405,7 @@ QBShared.Vehicles = {
 		['model'] = 'jugular',
 		['price'] = 80000,
 		['category'] = 'sports',
-		['hash'] = `jugular`,
+		['hash'] = 'jugular',
 		['shop'] = 'pdm',
 	},
 	['kalahari'] = {
@@ -3414,7 +3414,7 @@ QBShared.Vehicles = {
 		['model'] = 'kalahari',
 		['price'] = 14000,
 		['category'] = 'offroad',
-		['hash'] = `kalahari`,
+		['hash'] = 'kalahari',
 		['shop'] = 'pdm',
 	},
 	['kamacho'] = {
@@ -3423,7 +3423,7 @@ QBShared.Vehicles = {
 		['model'] = 'kamacho',
 		['price'] = 50000,
 		['category'] = 'offroad',
-		['hash'] = `kamacho`,
+		['hash'] = 'kamacho',
 		['shop'] = 'pdm',
 	},
 	['kanjo'] = {
@@ -3432,7 +3432,7 @@ QBShared.Vehicles = {
 		['model'] = 'kanjo',
 		['price'] = 12000,
 		['category'] = 'compacts',
-		['hash'] = `kanjo`,
+		['hash'] = 'kanjo',
 		['shop'] = 'pdm',
 	},
 	['komoda'] = {
@@ -3441,7 +3441,7 @@ QBShared.Vehicles = {
 		['model'] = 'komoda',
 		['price'] = 55000,
 		['category'] = 'sports',
-		['hash'] = `komoda`,
+		['hash'] = 'komoda',
 		['shop'] = 'pdm',
 	},
 	['krieger'] = {
@@ -3450,7 +3450,7 @@ QBShared.Vehicles = {
 		['model'] = 'krieger',
 		['price'] = 222000,
 		['category'] = 'super',
-		['hash'] = `krieger`,
+		['hash'] = 'krieger',
 		['shop'] = 'pdm',
 	},
 	['landstalker2'] = {
@@ -3459,7 +3459,7 @@ QBShared.Vehicles = {
 		['model'] = 'landstalker2',
 		['price'] = 26000,
 		['category'] = 'suvs',
-		['hash'] = `landstalker2`,
+		['hash'] = 'landstalker2',
 		['shop'] = 'pdm',
 	},
 	['le7b'] = {
@@ -3468,7 +3468,7 @@ QBShared.Vehicles = {
 		['model'] = 'le7b',
 		['price'] = 260000,
 		['category'] = 'super',
-		['hash'] = `le7b`,
+		['hash'] = 'le7b',
 		['shop'] = 'pdm',
 	},
 	['lectro'] = {
@@ -3477,7 +3477,7 @@ QBShared.Vehicles = {
 		['model'] = 'lectro',
 		['price'] = 28000,
 		['category'] = 'motorcycles',
-		['hash'] = `lectro`,
+		['hash'] = 'lectro',
 		['shop'] = 'pdm',
 	},
 	['locust'] = {
@@ -3486,7 +3486,7 @@ QBShared.Vehicles = {
 		['model'] = 'locust',
 		['price'] = 200000,
 		['category'] = 'sports',
-		['hash'] = `locust`,
+		['hash'] = 'locust',
 		['shop'] = 'pdm',
 	},
 	['lurcher'] = {
@@ -3495,7 +3495,7 @@ QBShared.Vehicles = {
 		['model'] = 'lurcher',
 		['price'] = 21000,
 		['category'] = 'muscle',
-		['hash'] = `lurcher`,
+		['hash'] = 'lurcher',
 		['shop'] = 'pdm',
 	},
 	['manana'] = {
@@ -3504,7 +3504,7 @@ QBShared.Vehicles = {
 		['model'] = 'manana',
 		['price'] = 12800,
 		['category'] = 'muscle',
-		['hash'] = `manana`,
+		['hash'] = 'manana',
 		['shop'] = 'pdm',
 	},
 	['manana2'] = {
@@ -3513,7 +3513,7 @@ QBShared.Vehicles = {
 		['model'] = 'manana2',
 		['price'] = 24000,
 		['category'] = 'muscle',
-		['hash'] = `manana2`,
+		['hash'] = 'manana2',
 		['shop'] = 'pdm',
 	},
 	['manchez'] = {
@@ -3522,7 +3522,7 @@ QBShared.Vehicles = {
 		['model'] = 'manchez',
 		['price'] = 8300,
 		['category'] = 'motorcycles',
-		['hash'] = `manchez`,
+		['hash'] = 'manchez',
 		['shop'] = 'pdm',
 	},
 	['manchez2'] = {
@@ -3531,7 +3531,7 @@ QBShared.Vehicles = {
 		['model'] = 'manchez2',
 		['price'] = 14000,
 		['category'] = 'motorcycles',
-		['hash'] = `manchez2`,
+		['hash'] = 'manchez2',
 		['shop'] = 'pdm',
 	},
 	['massacro2'] = {
@@ -3540,7 +3540,7 @@ QBShared.Vehicles = {
 		['model'] = 'massacro2',
 		['price'] = 80000,
 		['category'] = 'sports',
-		['hash'] = `massacro2`,
+		['hash'] = 'massacro2',
 		['shop'] = 'pdm',
 	},
 	['mesa'] = {
@@ -3549,7 +3549,7 @@ QBShared.Vehicles = {
 		['model'] = 'mesa',
 		['price'] = 12000,
 		['category'] = 'offroad',
-		['hash'] = `mesa`,
+		['hash'] = 'mesa',
 		['shop'] = 'pdm',
 	},
 	['mesa3'] = {
@@ -3558,7 +3558,7 @@ QBShared.Vehicles = {
 		['model'] = 'mesa3',
 		['price'] = 400000,
 		['category'] = 'offroad',
-		['hash'] = `mesa3`,
+		['hash'] = 'mesa3',
 		['shop'] = 'pdm',
 	},
 	['michelli'] = {
@@ -3567,7 +3567,7 @@ QBShared.Vehicles = {
 		['model'] = 'michelli',
 		['price'] = 30000,
 		['category'] = 'sportsclassic',
-		['hash'] = `michelli`,
+		['hash'] = 'michelli',
 		['shop'] = 'pdm',
 	},
 	['minivan'] = {
@@ -3576,7 +3576,7 @@ QBShared.Vehicles = {
 		['model'] = 'minivan',
 		['price'] = 7000,
 		['category'] = 'vans',
-		['hash'] = `minivan`,
+		['hash'] = 'minivan',
 		['shop'] = 'pdm',
 	},
 	['minivan2'] = {
@@ -3585,7 +3585,7 @@ QBShared.Vehicles = {
 		['model'] = 'minivan2',
 		['price'] = 10000,
 		['category'] = 'vans',
-		['hash'] = `minivan2`,
+		['hash'] = 'minivan2',
 		['shop'] = 'pdm',
 	},
 	['moonbeam2'] = {
@@ -3594,7 +3594,7 @@ QBShared.Vehicles = {
 		['model'] = 'moonbeam2',
 		['price'] = 15000,
 		['category'] = 'vans',
-		['hash'] = `moonbeam2`,
+		['hash'] = 'moonbeam2',
 		['shop'] = 'pdm',
 	},
 	['nebula'] = {
@@ -3603,7 +3603,7 @@ QBShared.Vehicles = {
 		['model'] = 'nebula',
 		['price'] = 22000,
 		['category'] = 'sportsclassic',
-		['hash'] = `nebula`,
+		['hash'] = 'nebula',
 		['shop'] = 'pdm',
 	},
 	['neo'] = {
@@ -3612,7 +3612,7 @@ QBShared.Vehicles = {
 		['model'] = 'neo',
 		['price'] = 230000,
 		['category'] = 'sports',
-		['hash'] = `neo`,
+		['hash'] = 'neo',
 		['shop'] = 'pdm',
 	},
 	['nero2'] = {
@@ -3621,7 +3621,7 @@ QBShared.Vehicles = {
 		['model'] = 'nero2',
 		['price'] = 260000,
 		['category'] = 'super',
-		['hash'] = `nero2`,
+		['hash'] = 'nero2',
 		['shop'] = 'pdm',
 	},
 	['novak'] = {   
@@ -3630,7 +3630,7 @@ QBShared.Vehicles = {
 		['model'] = 'novak',
 		['price'] = 70000,
 		['category'] = 'suvs',
-		['hash'] = `novak`,
+		['hash'] = 'novak',
 		['shop'] = 'pdm',
 	},
 	['oppressor'] = {
@@ -3639,7 +3639,7 @@ QBShared.Vehicles = {
 		['model'] = 'oppressor',
 		['price'] = 9999999,
 		['category'] = 'super',
-		['hash'] = `oppressor`,
+		['hash'] = 'oppressor',
 		['shop'] = 'pdm',
 	},
 	['outlaw'] = {
@@ -3648,7 +3648,7 @@ QBShared.Vehicles = {
 		['model'] = 'outlaw',
 		['price'] = 15000,
 		['category'] = 'offroad',
-		['hash'] = `outlaw`,
+		['hash'] = 'outlaw',
 		['shop'] = 'pdm',
 	},
 	['paradise'] = {
@@ -3657,7 +3657,7 @@ QBShared.Vehicles = {
 		['model'] = 'paradise',
 		['price'] = 9000,
 		['category'] = 'vans',
-		['hash'] = `paradise`,
+		['hash'] = 'paradise',
 		['shop'] = 'pdm',
 	},
 	['paragon'] = {
@@ -3666,7 +3666,7 @@ QBShared.Vehicles = {
 		['model'] = 'paragon',
 		['price'] = 60000,
 		['category'] = 'sports',
-		['hash'] = `paragon`,
+		['hash'] = 'paragon',
 		['shop'] = 'pdm',
 	},
 	['penumbra'] = {
@@ -3675,7 +3675,7 @@ QBShared.Vehicles = {
 		['model'] = 'penumbra',
 		['price'] = 22000,
 		['category'] = 'sports',
-		['hash'] = `penumbra`,
+		['hash'] = 'penumbra',
 		['shop'] = 'pdm',
 	},
 	['penumbra2'] = {
@@ -3684,7 +3684,7 @@ QBShared.Vehicles = {
 		['model'] = 'penumbra2',
 		['price'] = 30000,
 		['category'] = 'sports',
-		['hash'] = `penumbra2`,
+		['hash'] = 'penumbra2',
 		['shop'] = 'pdm',
 	},
 	['peyote'] = {
@@ -3693,7 +3693,7 @@ QBShared.Vehicles = {
 		['model'] = 'peyote',
 		['price'] = 23500,
 		['category'] = 'sportsclassic',
-		['hash'] = `peyote`,
+		['hash'] = 'peyote',
 		['shop'] = 'pdm',
 	},
 	['peyote2'] = {
@@ -3702,7 +3702,7 @@ QBShared.Vehicles = {
 		['model'] = 'peyote2',
 		['price'] = 40000,
 		['category'] = 'sportsclassic',
-		['hash'] = `peyote2`,
+		['hash'] = 'peyote2',
 		['shop'] = 'pdm',
 	},
 	['peyote3'] = {
@@ -3711,7 +3711,7 @@ QBShared.Vehicles = {
 		['model'] = 'peyote3',
 		['price'] = 48000,
 		['category'] = 'sportsclassic',
-		['hash'] = `peyote3`,
+		['hash'] = 'peyote3',
 		['shop'] = 'pdm',
 	},
 	['primo'] = {
@@ -3720,7 +3720,7 @@ QBShared.Vehicles = {
 		['model'] = 'primo',
 		['price'] = 5000,
 		['category'] = 'sedans',
-		['hash'] = `primo`,
+		['hash'] = 'primo',
 		['shop'] = 'pdm',
 	},
 	['rancherxl'] = {
@@ -3729,7 +3729,7 @@ QBShared.Vehicles = {
 		['model'] = 'rancherxl',
 		['price'] = 24000,
 		['category'] = 'offroad',
-		['hash'] = `rancherxl`,
+		['hash'] = 'rancherxl',
 		['shop'] = 'pdm',
 	},
 	['raptor'] = {
@@ -3738,7 +3738,7 @@ QBShared.Vehicles = {
 		['model'] = 'raptor',
 		['price'] = 90000,
 		['category'] = 'sports',
-		['hash'] = `raptor`,
+		['hash'] = 'raptor',
 		['shop'] = 'pdm',
 	},
 	['ratbike'] = {
@@ -3747,7 +3747,7 @@ QBShared.Vehicles = {
 		['model'] = 'ratbike',
 		['price'] = 3000,
 		['category'] = 'motorcycles',
-		['hash'] = `ratbike`,
+		['hash'] = 'ratbike',
 		['shop'] = 'pdm',
 	},
 	['rebla'] = {
@@ -3756,7 +3756,7 @@ QBShared.Vehicles = {
 		['model'] = 'rebla',
 		['price'] = 21000,
 		['category'] = 'suvs',
-		['hash'] = `rebla`,
+		['hash'] = 'rebla',
 		['shop'] = 'pdm',
 	},
 	['retinue'] = {
@@ -3765,7 +3765,7 @@ QBShared.Vehicles = {
 		['model'] = 'retinue',
 		['price'] = 32000,
 		['category'] = 'sportsclassic',
-		['hash'] = `retinue`,
+		['hash'] = 'retinue',
 		['shop'] = 'pdm',
 	},
 	['retinue2'] = {
@@ -3774,7 +3774,7 @@ QBShared.Vehicles = {
 		['model'] = 'retinue2',
 		['price'] = 38000,
 		['category'] = 'sportsclassic',
-		['hash'] = `retinue2`,
+		['hash'] = 'retinue2',
 		['shop'] = 'pdm',
 	},
 	['riata'] = {
@@ -3783,7 +3783,7 @@ QBShared.Vehicles = {
 		['model'] = 'riata',
 		['price'] = 380000,
 		['category'] = 'offroad',
-		['hash'] = `riata`,
+		['hash'] = 'riata',
 		['shop'] = 'pdm',
 	},
 	['ruiner'] = {
@@ -3792,7 +3792,7 @@ QBShared.Vehicles = {
 		['model'] = 'ruiner',
 		['price'] = 29000,
 		['category'] = 'muscle',
-		['hash'] = `ruiner`,
+		['hash'] = 'ruiner',
 		['shop'] = 'pdm',
 	},
 	['ruiner2'] = {
@@ -3801,7 +3801,7 @@ QBShared.Vehicles = {
 		['model'] = 'ruiner2',
 		['price'] = 50000,
 		['category'] = 'muscle',
-		['hash'] = `ruiner2`,
+		['hash'] = 'ruiner2',
 		['shop'] = 'pdm',
 	},
 	['rumpo3'] = {
@@ -3810,7 +3810,7 @@ QBShared.Vehicles = {
 		['model'] = 'rumpo3',
 		['price'] = 19500,
 		['category'] = 'vans',
-		['hash'] = `rumpo3`,
+		['hash'] = 'rumpo3',
 		['shop'] = 'pdm',
 	},
 	['s80'] = {
@@ -3819,7 +3819,7 @@ QBShared.Vehicles = {
 		['model'] = 's80',
 		['price'] = 205000,
 		['category'] = 'super',
-		['hash'] = `s80`,
+		['hash'] = 's80',
 		['shop'] = 'pdm',
 	},
 	['sadler'] = {
@@ -3828,7 +3828,7 @@ QBShared.Vehicles = {
 		['model'] = 'sadler',
 		['price'] = 20000,
 		['category'] = 'offroad',
-		['hash'] = `sadler`,
+		['hash'] = 'sadler',
 		['shop'] = 'pdm',
 	},
 	['sanchez'] = {
@@ -3837,7 +3837,7 @@ QBShared.Vehicles = {
 		['model'] = 'sanchez',
 		['price'] = 5300,
 		['category'] = 'motorcycles',
-		['hash'] = `sanchez`,
+		['hash'] = 'sanchez',
 		['shop'] = 'pdm',
 	},
 	['sanchez2'] = {
@@ -3846,7 +3846,7 @@ QBShared.Vehicles = {
 		['model'] = 'sanchez2',
 		['price'] = 5300,
 		['category'] = 'motorcycles',
-		['hash'] = `sanchez2`,
+		['hash'] = 'sanchez2',
 		['shop'] = 'pdm',
 	},
 	['sanctus'] = {
@@ -3855,7 +3855,7 @@ QBShared.Vehicles = {
 		['model'] = 'sanctus',
 		['price'] = 35000,
 		['category'] = 'motorcycles',
-		['hash'] = `sanctus`,
+		['hash'] = 'sanctus',
 		['shop'] = 'pdm',
 	},
 	['sandking2'] = {
@@ -3864,7 +3864,7 @@ QBShared.Vehicles = {
 		['price'] = 38000,
 		['category'] = 'offroad',
 		['model'] = 'sandking2',
-		['hash'] = `sandking2`,
+		['hash'] = 'sandking2',
 		['shop'] = 'pdm',
 	},
 	['savestra'] = {
@@ -3873,7 +3873,7 @@ QBShared.Vehicles = {
 		['model'] = 'savestra',
 		['price'] = 67000,
 		['category'] = 'sportsclassic',
-		['hash'] = `savestra`,
+		['hash'] = 'savestra',
 		['shop'] = 'pdm',
 	},
 	['schafter4'] = {
@@ -3882,7 +3882,7 @@ QBShared.Vehicles = {
 		['model'] = 'schafter4',
 		['price'] = 21000,
 		['category'] = 'sports',
-		['hash'] = `schafter4`,
+		['hash'] = 'schafter4',
 		['shop'] = 'pdm',
 	},
 	['schlagen'] = {
@@ -3891,7 +3891,7 @@ QBShared.Vehicles = {
 		['model'] = 'schlagen',
 		['price'] = 160000,
 		['category'] = 'sports',
-		['hash'] = `schlagen`,
+		['hash'] = 'schlagen',
 		['shop'] = 'pdm',
 	},
 	['schwarzer'] = {
@@ -3900,7 +3900,7 @@ QBShared.Vehicles = {
 		['model'] = 'schwarzer',
 		['price'] = 47000,
 		['category'] = 'sports',
-		['hash'] = `schwarzer`,
+		['hash'] = 'schwarzer',
 		['shop'] = 'pdm',
 	},
 	['scorcher'] = {
@@ -3908,7 +3908,7 @@ QBShared.Vehicles = {
 		['model'] = 'scorcher',
 		['price'] = 280,
 		['category'] = 'cycles',
-		['hash'] = `scorcher`,
+		['hash'] = 'scorcher',
 		['shop'] = 'pdm',
 	},
 	['seminole2'] = {
@@ -3917,7 +3917,7 @@ QBShared.Vehicles = {
 		['model'] = 'seminole2',
 		['price'] = 13000,
 		['category'] = 'suvs',
-		['hash'] = `seminole2`,
+		['hash'] = 'seminole2',
 		['shop'] = 'pdm',
 	},
 	['serrano'] = {
@@ -3926,7 +3926,7 @@ QBShared.Vehicles = {
 		['model'] = 'serrano',
 		['price'] = 48000,
 		['category'] = 'suvs',
-		['hash'] = `serrano`,
+		['hash'] = 'serrano',
 		['shop'] = 'pdm',
 	},
 	['sheava'] = {
@@ -3935,7 +3935,7 @@ QBShared.Vehicles = {
 		['model'] = 'sheava',
 		['price'] = 220000,
 		['category'] = 'super',
-		['hash'] = `sheava`,
+		['hash'] = 'sheava',
 		['shop'] = 'pdm',
 	},
 	['shotaro'] = {
@@ -3944,7 +3944,7 @@ QBShared.Vehicles = {
 		['model'] = 'shotaro',
 		['price'] = 320000,
 		['category'] = 'motorcycles',
-		['hash'] = `shotaro`,
+		['hash'] = 'shotaro',
 		['shop'] = 'pdm',
 	},
 	['slamtruck'] = {
@@ -3953,7 +3953,7 @@ QBShared.Vehicles = {
 		['model'] = 'slamtruck',
 		['price'] = 100000,
 		['category'] = 'muscle',
-		['hash'] = `slamtruck`,
+		['hash'] = 'slamtruck',
 		['shop'] = 'pdm',
 	},
 	['slamvan'] = {
@@ -3962,7 +3962,7 @@ QBShared.Vehicles = {
 		['model'] = 'slamvan',
 		['price'] = 30000,
 		['category'] = 'muscle',
-		['hash'] = `slamvan`,
+		['hash'] = 'slamvan',
 		['shop'] = 'pdm',
 	},
 	['slamvan2'] = {
@@ -3971,7 +3971,7 @@ QBShared.Vehicles = {
 		['model'] = 'slamvan2',
 		['price'] = 90000,
 		['category'] = 'muscle',
-		['hash'] = `slamvan2`,
+		['hash'] = 'slamvan2',
 		['shop'] = 'pdm',
 	},
 	['speedo'] = {
@@ -3980,7 +3980,7 @@ QBShared.Vehicles = {
 		['model'] = 'speedo',
 		['price'] = 10000,
 		['category'] = 'vans',
-		['hash'] = `speedo`,
+		['hash'] = 'speedo',
 		['shop'] = 'pdm',
 	},
 	['speedo4'] = {
@@ -3989,7 +3989,7 @@ QBShared.Vehicles = {
 		['model'] = 'speedo4',
 		['price'] = 15000,
 		['category'] = 'vans',
-		['hash'] = `speedo4`,
+		['hash'] = 'speedo4',
 		['shop'] = 'pdm',
 	},
 	['stalion2'] = {
@@ -3998,7 +3998,7 @@ QBShared.Vehicles = {
 		['model'] = 'stalion2',
 		['price'] = 40000,
 		['category'] = 'muscle',
-		['hash'] = `stalion2`,
+		['hash'] = 'stalion2',
 		['shop'] = 'pdm',
 	},
 	['stanier'] = {
@@ -4007,7 +4007,7 @@ QBShared.Vehicles = {
 		['model'] = 'stanier',
 		['price'] = 19000,
 		['category'] = 'sedans',
-		['hash'] = `stanier`,
+		['hash'] = 'stanier',
 		['shop'] = 'pdm',
 	},
 	['stinger'] = {
@@ -4016,7 +4016,7 @@ QBShared.Vehicles = {
 		['model'] = 'stinger',
 		['price'] = 39500,
 		['category'] = 'sportsclassic',
-		['hash'] = `stinger`,
+		['hash'] = 'stinger',
 		['shop'] = 'pdm',
 	},
 	['stratum'] = {
@@ -4025,7 +4025,7 @@ QBShared.Vehicles = {
 		['model'] = 'stratum',
 		['price'] = 15000,
 		['category'] = 'sedans',
-		['hash'] = `stratum`,
+		['hash'] = 'stratum',
 		['shop'] = 'pdm',
 	},
 	['stretch'] = {
@@ -4034,7 +4034,7 @@ QBShared.Vehicles = {
 		['model'] = 'stretch',
 		['price'] = 19000,
 		['category'] = 'sedans',
-		['hash'] = `stretch`,
+		['hash'] = 'stretch',
 		['shop'] = 'pdm',
 	},
 	['stromberg'] = {
@@ -4043,7 +4043,7 @@ QBShared.Vehicles = {
 		['model'] = 'stromberg',
 		['price'] = 80000,
 		['category'] = 'sportsclassic',
-		['hash'] = `stromberg`,
+		['hash'] = 'stromberg',
 		['shop'] = 'pdm',
 	},
 	['stryder'] = {
@@ -4052,7 +4052,7 @@ QBShared.Vehicles = {
 		['model'] = 'stryder',
 		['price'] = 50000,
 		['category'] = 'motorcycles',
-		['hash'] = `stryder`,
+		['hash'] = 'stryder',
 		['shop'] = 'pdm',
 	},
 	['sugoi'] = {
@@ -4061,7 +4061,7 @@ QBShared.Vehicles = {
 		['model'] = 'sugoi',
 		['price'] = 85000,
 		['category'] = 'sports',
-		['hash'] = `sugoi`,
+		['hash'] = 'sugoi',
 		['shop'] = 'pdm',
 	},
 	['sultan2'] = {
@@ -4070,7 +4070,7 @@ QBShared.Vehicles = {
 		['model'] = 'sultan2',
 		['price'] = 55000,
 		['category'] = 'sports',
-		['hash'] = `sultan2`,
+		['hash'] = 'sultan2',
 		['shop'] = 'pdm',
 	},
 	['surfer'] = {
@@ -4079,7 +4079,7 @@ QBShared.Vehicles = {
 		['model'] = 'surfer',
 		['price'] = 9000,
 		['category'] = 'vans',
-		['hash'] = `surfer`,
+		['hash'] = 'surfer',
 		['shop'] = 'pdm',
 	},
 	['swinger'] = {
@@ -4088,7 +4088,7 @@ QBShared.Vehicles = {
 		['model'] = 'swinger',
 		['price'] = 221000,
 		['category'] = 'sportsclassic',
-		['hash'] = `swinger`,
+		['hash'] = 'swinger',
 		['shop'] = 'pdm',
 	},
 	['thrax'] = {
@@ -4097,7 +4097,7 @@ QBShared.Vehicles = {
 		['model'] = 'thrax',
 		['price'] = 180000,
 		['category'] = 'super',
-		['hash'] = `thrax`,
+		['hash'] = 'thrax',
 		['shop'] = 'pdm',
 	},
 	['tigon'] = {
@@ -4106,7 +4106,7 @@ QBShared.Vehicles = {
 		['model'] = 'tigon',
 		['price'] = 240000,
 		['category'] = 'super',
-		['hash'] = `tigon`,
+		['hash'] = 'tigon',
 		['shop'] = 'pdm',
 	},
 	['toreador'] = {
@@ -4115,7 +4115,7 @@ QBShared.Vehicles = {
 		['model'] = 'toreador',
 		['price'] = 50000,
 		['category'] = 'sportsclassic',
-		['hash'] = `toreador`,
+		['hash'] = 'toreador',
 		['shop'] = 'pdm',
 	},
 	['tornado'] = {
@@ -4124,7 +4124,7 @@ QBShared.Vehicles = {
 		['model'] = 'tornado',
 		['price'] = 21000,
 		['category'] = 'sportsclassic',
-		['hash'] = `tornado`,
+		['hash'] = 'tornado',
 		['shop'] = 'pdm',
 	},
 	['tornado2'] = {
@@ -4133,7 +4133,7 @@ QBShared.Vehicles = {
 		['model'] = 'tornado2',
 		['price'] = 22000,
 		['category'] = 'sportsclassic',
-		['hash'] = `tornado2`,
+		['hash'] = 'tornado2',
 		['shop'] = 'pdm',
 	},
 	['tornado5'] = {
@@ -4142,7 +4142,7 @@ QBShared.Vehicles = {
 		['model'] = 'tornado5',
 		['price'] = 22000,
 		['category'] = 'sportsclassic',
-		['hash'] = `tornado5`,
+		['hash'] = 'tornado5',
 		['shop'] = 'pdm',
 	},
 	['toros'] = {
@@ -4151,7 +4151,7 @@ QBShared.Vehicles = {
 		['model'] = 'toros',
 		['price'] = 65000,
 		['category'] = 'suvs',
-		['hash'] = `toros`,
+		['hash'] = 'toros',
 		['shop'] = 'pdm',
 	},
 	['tribike'] = {
@@ -4159,7 +4159,7 @@ QBShared.Vehicles = {
 		['model'] = 'tribike',
 		['price'] = 500,
 		['category'] = 'cycles',
-		['hash'] = `tribike`,
+		['hash'] = 'tribike',
 		['shop'] = 'pdm',
 	},
 	['tribike2'] = {
@@ -4167,7 +4167,7 @@ QBShared.Vehicles = {
 		['model'] = 'tribike2',
 		['price'] = 700,
 		['category'] = 'cycles',
-		['hash'] = `tribike2`,
+		['hash'] = 'tribike2',
 		['shop'] = 'pdm',
 	},
 	['tribike3'] = {
@@ -4175,7 +4175,7 @@ QBShared.Vehicles = {
 		['model'] = 'tribike3',
 		['price'] = 520,
 		['category'] = 'cycles',
-		['hash'] = `tribike3`,
+		['hash'] = 'tribike3',
 		['shop'] = 'pdm',
 	},
 	['tropos'] = {
@@ -4184,7 +4184,7 @@ QBShared.Vehicles = {
 		['model'] = 'tropos',
 		['price'] = 65000,
 		['category'] = 'sports',
-		['hash'] = `tropos`,
+		['hash'] = 'tropos',
 		['shop'] = 'pdm',
 	},
 	['tulip'] = {
@@ -4193,7 +4193,7 @@ QBShared.Vehicles = {
 		['model'] = 'tulip',
 		['price'] = 80000,
 		['category'] = 'muscle',
-		['hash'] = `tulip`,
+		['hash'] = 'tulip',
 		['shop'] = 'pdm',
 	},
 	['turismo2'] = {
@@ -4202,7 +4202,7 @@ QBShared.Vehicles = {
 		['model'] = 'turismo2',
 		['price'] = 170000,
 		['category'] = 'sportsclassic',
-		['hash'] = `turismo2`,
+		['hash'] = 'turismo2',
 		['shop'] = 'pdm',
 	},
 	['tyrus'] = {
@@ -4211,7 +4211,7 @@ QBShared.Vehicles = {
 		['model'] = 'tyrus',
 		['price'] = 230000,
 		['category'] = 'super',
-		['hash'] = `tyrus`,
+		['hash'] = 'tyrus',
 		['shop'] = 'pdm',
 	},
 	['vader'] = {
@@ -4220,7 +4220,7 @@ QBShared.Vehicles = {
 		['model'] = 'vader',
 		['price'] = 7200,
 		['category'] = 'motorcycles',
-		['hash'] = `vader`,
+		['hash'] = 'vader',
 		['shop'] = 'pdm',
 	},
 	['vagrant'] = {
@@ -4229,7 +4229,7 @@ QBShared.Vehicles = {
 		['price'] = 50000,
 		['category'] = 'offroad',
 		['model'] = 'vagrant',
-		['hash'] = `vagrant`,
+		['hash'] = 'vagrant',
 		['shop'] = 'pdm',
 	},
 	['vamos'] = {
@@ -4238,7 +4238,7 @@ QBShared.Vehicles = {
 		['model'] = 'vamos',
 		['price'] = 30000,
 		['category'] = 'muscle',
-		['hash'] = `vamos`,
+		['hash'] = 'vamos',
 		['shop'] = 'pdm',
 	},
 	['verus'] = {
@@ -4247,7 +4247,7 @@ QBShared.Vehicles = {
 		['price'] = 20000,
 		['category'] = 'offroad',
 		['model'] = 'verus',
-		['hash'] = `verus`,
+		['hash'] = 'verus',
 		['shop'] = 'pdm',
 	},
 	['vindicator'] = {
@@ -4256,7 +4256,7 @@ QBShared.Vehicles = {
 		['model'] = 'vindicator',
 		['price'] = 19000,
 		['category'] = 'motorcycles',
-		['hash'] = `vindicator`,
+		['hash'] = 'vindicator',
 		['shop'] = 'pdm',
 	},
 	['virgo2'] = {
@@ -4265,7 +4265,7 @@ QBShared.Vehicles = {
 		['model'] = 'virgo2',
 		['price'] = 21000,
 		['category'] = 'muscle',
-		['hash'] = `virgo2`,
+		['hash'] = 'virgo2',
 		['shop'] = 'pdm',
 	},
 	['viseris'] = {
@@ -4274,7 +4274,7 @@ QBShared.Vehicles = {
 		['model'] = 'viseris',
 		['price'] = 210000,
 		['category'] = 'sportsclassic',
-		['hash'] = `viseris`,
+		['hash'] = 'viseris',
 		['shop'] = 'pdm',
 	},
 	['voltic2'] = {
@@ -4283,7 +4283,7 @@ QBShared.Vehicles = {
 		['model'] = 'voltic2',
 		['price'] = 9830400,
 		['category'] = 'super',
-		['hash'] = `voltic2`,
+		['hash'] = 'voltic2',
 		['shop'] = 'pdm',
 	},
 	['vortex'] = {
@@ -4292,7 +4292,7 @@ QBShared.Vehicles = {
 		['model'] = 'vortex',
 		['price'] = 31000,
 		['category'] = 'motorcycles',
-		['hash'] = `vortex`,
+		['hash'] = 'vortex',
 		['shop'] = 'pdm',
 	},
 	['vstr'] = {
@@ -4301,7 +4301,7 @@ QBShared.Vehicles = {
 		['model'] = 'vstr',
 		['price'] = 80000,
 		['category'] = 'sports',
-		['hash'] = `vstr`,
+		['hash'] = 'vstr',
 		['shop'] = 'pdm',
 	},
 	['warrener'] = {
@@ -4310,7 +4310,7 @@ QBShared.Vehicles = {
 		['model'] = 'warrener',
 		['price'] = 4000,
 		['category'] = 'sedans',
-		['hash'] = `warrener`,
+		['hash'] = 'warrener',
 		['shop'] = 'pdm',
 	},
 	['weevil'] = {
@@ -4319,7 +4319,7 @@ QBShared.Vehicles = {
 		['model'] = 'weevil',
 		['price'] = 9000,
 		['category'] = 'compacts',
-		['hash'] = `weevil`,
+		['hash'] = 'weevil',
 		['shop'] = 'pdm',
 	},
 	['winky'] = {
@@ -4328,7 +4328,7 @@ QBShared.Vehicles = {
 		['price'] = 10000,
 		['category'] = 'offroad',
 		['model'] = 'winky',
-		['hash'] = `winky`,
+		['hash'] = 'winky',
 		['shop'] = 'pdm',
 	},
 	['wolfsbane'] = {
@@ -4337,7 +4337,7 @@ QBShared.Vehicles = {
 		['model'] = 'wolfsbane',
 		['price'] = 14000,
 		['category'] = 'motorcycles',
-		['hash'] = `wolfsbane`,
+		['hash'] = 'wolfsbane',
 		['shop'] = 'pdm',
 	},
 	['yosemite2'] = {
@@ -4346,7 +4346,7 @@ QBShared.Vehicles = {
 		['model'] = 'yosemite2',
 		['price'] = 55000,
 		['category'] = 'muscle',
-		['hash'] = `yosemite2`,
+		['hash'] = 'yosemite2',
 		['shop'] = 'pdm',
 	},
 	['yosemite3'] = {
@@ -4355,7 +4355,7 @@ QBShared.Vehicles = {
 		['price'] = 425000,
 		['category'] = 'offroad',
 		['model'] = 'yosemite3',
-		['hash'] = `yosemite3`,
+		['hash'] = 'yosemite3',
 		['shop'] = 'pdm',
 	},
 	['youga'] = {
@@ -4364,7 +4364,7 @@ QBShared.Vehicles = {
 		['model'] = 'youga',
 		['price'] = 8000,
 		['category'] = 'vans',
-		['hash'] = `youga`,
+		['hash'] = 'youga',
 		['shop'] = 'pdm',
 	},
 	['youga2'] = {
@@ -4373,7 +4373,7 @@ QBShared.Vehicles = {
 		['model'] = 'youga2',
 		['price'] = 14500,
 		['category'] = 'vans',
-		['hash'] = `youga2`,
+		['hash'] = 'youga2',
 		['shop'] = 'pdm',
 	},
 	['youga3'] = {
@@ -4382,7 +4382,7 @@ QBShared.Vehicles = {
 		['model'] = 'youga3',
 		['price'] = 15000,
 		['category'] = 'vans',
-		['hash'] = `youga3`,
+		['hash'] = 'youga3',
 		['shop'] = 'pdm',
 	},
 	['zion3'] = {
@@ -4391,7 +4391,7 @@ QBShared.Vehicles = {
 		['model'] = 'zion3',
 		['price'] = 45000,
 		['category'] = 'sportsclassic',
-		['hash'] = `zion3`,
+		['hash'] = 'zion3',
 		['shop'] = 'pdm',
 	},
 	['zombiea'] = {
@@ -4400,7 +4400,7 @@ QBShared.Vehicles = {
 		['model'] = 'zombiea',
 		['price'] = 28000,
 		['category'] = 'motorcycles',
-		['hash'] = `zombiea`,
+		['hash'] = 'zombiea',
 		['shop'] = 'pdm',
 	},
 	['zorrusso'] = {
@@ -4409,7 +4409,7 @@ QBShared.Vehicles = {
 		['model'] = 'zorrusso',
 		['price'] = 277000,
 		['category'] = 'super',
-		['hash'] = `zorrusso`,
+		['hash'] = 'zorrusso',
 		['shop'] = 'pdm',
 	},
 	
@@ -4428,7 +4428,7 @@ QBShared.Vehicles = {
 		['model'] = 'comet6',
 		['price'] = 230000,
 		['category'] = 'sports',
-		['hash'] = `comet6`,
+		['hash'] = 'comet6',
 		['shop'] = 'pdm',
 	},
 	['remus'] = {
@@ -4437,7 +4437,7 @@ QBShared.Vehicles = {
 		['model'] = 'remus',
 		['price'] = 48000,
 		['category'] = 'sports',
-		['hash'] = `remus`,
+		['hash'] = 'remus',
 		['shop'] = 'pdm',
 	},
 	['jester4'] = {
@@ -4446,7 +4446,7 @@ QBShared.Vehicles = {
 		['model'] = 'jester4',
 		['price'] = 240000,
 		['category'] = 'sports',
-		['hash'] = `jester4`,
+		['hash'] = 'jester4',
 		['shop'] = 'pdm',
 	},
 	['tailgater2'] = {
@@ -4455,7 +4455,7 @@ QBShared.Vehicles = {
 		['model'] = 'tailgater2',
 		['price'] = 51000,
 		['category'] = 'sedans',
-		['hash'] = `tailgater2`,
+		['hash'] = 'tailgater2',
 		['shop'] = 'pdm',
 	},
 	['warrener2'] = {
@@ -4464,7 +4464,7 @@ QBShared.Vehicles = {
 		['model'] = 'warrener2',
 		['price'] = 30000,
 		['category'] = 'sedans',
-		['hash'] = `warrener2`,
+		['hash'] = 'warrener2',
 		['shop'] = 'pdm',
 	},
 	['rt3000'] = {
@@ -4473,7 +4473,7 @@ QBShared.Vehicles = {
 		['model'] = 'rt3000',
 		['price'] = 65000,
 		['category'] = 'sports',
-		['hash'] = `rt3000`,
+		['hash'] = 'rt3000',
 		['shop'] = 'pdm',
 	},
 	['zr350'] = {
@@ -4482,7 +4482,7 @@ QBShared.Vehicles = {
 		['model'] = 'zr350',
 		['price'] = 38000,
 		['category'] = 'sports',
-		['hash'] = `zr350`,
+		['hash'] = 'zr350',
 		['shop'] = 'pdm',
 	},
 	['dominator7'] = {
@@ -4491,7 +4491,7 @@ QBShared.Vehicles = {
 		['model'] = 'dominator7',
 		['price'] = 110000,
 		['category'] = 'muscle',
-		['hash'] = `dominator7`,
+		['hash'] = 'dominator7',
 		['shop'] = 'pdm',
 	},
 	['dominator8'] = {
@@ -4500,7 +4500,7 @@ QBShared.Vehicles = {
 		['model'] = 'dominator8',
 		['price'] = 80000,
 		['category'] = 'muscle',
-		['hash'] = `dominator8`,
+		['hash'] = 'dominator8',
 		['shop'] = 'pdm',
 	},
 	['euros'] = {
@@ -4509,7 +4509,7 @@ QBShared.Vehicles = {
 		['model'] = 'euros',
 		['price'] = 80000,
 		['category'] = 'sports',
-		['hash'] = `euros`,
+		['hash'] = 'euros',
 		['shop'] = 'pdm',
 	},
 	['futo2'] = {
@@ -4518,7 +4518,7 @@ QBShared.Vehicles = {
 		['model'] = 'futo2',
 		['price'] = 39000,
 		['category'] = 'sports',
-		['hash'] = `futo2`,
+		['hash'] = 'futo2',
 		['shop'] = 'pdm',
 	},
 	['calico'] = {
@@ -4527,7 +4527,7 @@ QBShared.Vehicles = {
 		['model'] = 'calico',
 		['price'] = 39000,
 		['category'] = 'sports',
-		['hash'] = `calico`,
+		['hash'] = 'calico',
 		['shop'] = 'pdm',
 	},
 	['sultan3'] = {
@@ -4536,7 +4536,7 @@ QBShared.Vehicles = {
 		['model'] = 'sultan3',
 		['price'] = 56000,
 		['category'] = 'sports',
-		['hash'] = `sultan3`,
+		['hash'] = 'sultan3',
 		['shop'] = 'pdm',
 	},
 	['vectre'] = {
@@ -4545,7 +4545,7 @@ QBShared.Vehicles = {
 		['model'] = 'vectre',
 		['price'] = 80000,
 		['category'] = 'sports',
-		['hash'] = `vectre`,
+		['hash'] = 'vectre',
 		['shop'] = 'pdm',
 	},
 	['growler'] = {
@@ -4554,7 +4554,7 @@ QBShared.Vehicles = {
 		['model'] = 'growler',
 		['price'] = 205000,
 		['category'] = 'sports',
-		['hash'] = `growler`,
+		['hash'] = 'growler',
 		['shop'] = 'pdm',
 	},
 	['cypher'] = {
@@ -4563,7 +4563,7 @@ QBShared.Vehicles = {
 		['model'] = 'cypher',
 		['price'] = 155000,
 		['category'] = 'sports',
-		['hash'] = `cypher`,
+		['hash'] = 'cypher',
 		['shop'] = 'pdm',
 	},
 	['previon'] = {
@@ -4572,7 +4572,7 @@ QBShared.Vehicles = {
 		['model'] = 'previon',
 		['price'] = 149000,
 		['category'] = 'coupes',
-		['hash'] = `previon`,
+		['hash'] = 'previon',
 		['shop'] = 'pdm',
 	},
 }
